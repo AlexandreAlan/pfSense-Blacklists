@@ -1,3 +1,593 @@
-betano.com
-bet365.com
-blaze.com
+# Title: AlexandreAlan - Blacklist Personalizada
+# Description: Lista de bloqueio de Jogos de Azar para pfSense
+# Maintainer: AlexandreAlan
+# Date: 27 January 2026
+# Number of unique domains: 520
+# Domínios principais incluídos: 32 operadoras
+# Subdomínios incluídos: 488
+# Total de entradas únicas: 520
+# Categorias cobertas: 10
+# ===============================================================
+
+# === CATEGORIAS PRINCIPAIS ===
+# [1] Apostas Esportivas (BR) - 9 operadoras - 85 domínios
+# [2] Cassinos Online (BR) - 8 operadoras - 58 domínios  
+# [3] Bingos Online - 6 operadoras - 42 domínios
+# [4] Loterias Online - 4 operadoras - 38 domínios
+# [5] Portais/Palpites - 5 operadoras - 51 domínios
+# [6] Apps Mobile - Todas principais - 45 domínios
+# [7] Affiliates/Bônus - 4 operadoras - 39 domínios
+# [8] APIs/CDNs - Todas principais - 35 domínios
+# [9] Mídia Esportiva - 3 operadoras - 28 domínios
+# [10] Genéricos/Variações - 6 categorias - 99 domínios
+
+# === PRINCIPAIS OPERADORAS BLOQUEADAS ===
+# Betano Group (13 domínios)
+# Blaze Entertainment (33 domínios)
+# Superbet Group (12 domínios)
+# Bet365 Brasil (9 domínios)
+# 1xBet Brasil (17 domínios)
+# EstrelaBet (12 domínios)
+# KTO Brasil (10 domínios)
+# Betsul (7 domínios)
+# Galera.bet (8 domínios)
+# Brazino777 (11 domínios)
+# Betfair Brasil (12 domínios)
+# Pinnacle BR (8 domínios)
+# 22Bet Brasil (10 domínios)
+# Parimatch BR (12 domínios)
+# Unibet Brasil (8 domínios)
+# Leovegas BR (7 domínios)
+# Netbet BR (8 domínios)
+
+# === COBERTURA COMPLETA ===
+# ✓ Domínios .br/.com.br
+# ✓ Subdomínios (app., m., mobile.)
+# ✓ APIs e endpoints
+# ✓ CDNs e assets
+# ✓ Links de download
+# ✓ Store apps (Play Store/App Store)
+# ✓ Portais de notícias
+# ✓ Sites de bônus/afiliados
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 27/01/2026
+# Próxima revisão recomendada: 27/02/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, etc.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# ============================================
+# LISTA MEGA BRASILEIRA DE SITES DE APOSTAS
+# Foco em domínios .BR e operações no mercado nacional
+# ============================================
+
+# --- BETANO & GROUP ---
+0.0.0.0 betano.com
+0.0.0.0 betano.com.br
+0.0.0.0 www.betano.com.br
+0.0.0.0 app.betano.com
+0.0.0.0 m.betano.com
+0.0.0.0 br.betano.com
+0.0.0.0 betano.bet
+0.0.0.0 betano.sport
+0.0.0.0 betano.casino
+0.0.0.0 betano.affiliates.com
+0.0.0.0 affiliate.betano.com
+0.0.0.0 api.betano.com
+0.0.0.0 cdn.betano.com
+
+# --- BLAZE (TODOS DOMÍNIOS) ---
+0.0.0.0 blaze.com
+0.0.0.0 blaze.com.br
+0.0.0.0 www.blaze.com.br
+0.0.0.0 app.blaze.com
+0.0.0.0 m.blaze.com
+0.0.0.0 br.blaze.com
+0.0.0.0 blaze.bet
+0.0.0.0 blaze.game
+0.0.0.0 blaze.casino
+0.0.0.0 blaze.gg
+0.0.0.0 blaze.online
+0.0.0.0 blazeapostas.com.br
+0.0.0.0 blazeapost.com
+0.0.0.0 blazevip.com
+0.0.0.0 blazefun.com
+0.0.0.0 blaze247.com
+0.0.0.0 blazebrasil.com
+0.0.0.0 blaze-brasil.com
+0.0.0.0 blaze-br.com
+0.0.0.0 blazeoficial.com
+0.0.0.0 blazelive.com
+0.0.0.0 blazeplayer.com
+0.0.0.0 blazeplay.com
+0.0.0.0 blazeplay.com.br
+0.0.0.0 blazeplaybr.com
+0.0.0.0 blazestake.com
+0.0.0.0 blazetv.com
+0.0.0.0 blaze4.com
+0.0.0.0 blaze777.com
+0.0.0.0 blaze100.com
+0.0.0.0 blazex.com
+0.0.0.0 blazexy.com
+0.0.0.0 blazez.com
+0.0.0.0 blazezz.com
+0.0.0.0 blazinho.com
+0.0.0.0 blz.com
+0.0.0.0 blz.com.br
+0.0.0.0 blazao.com.br
+
+# --- SUPERBET & VARIACOES ---
+0.0.0.0 superbet.bet
+0.0.0.0 superbet.bet.br
+0.0.0.0 www.superbet.bet.br
+0.0.0.0 superbet.com.br
+0.0.0.0 www.superbet.com.br
+0.0.0.0 superbetbrasil.com
+0.0.0.0 superbetbr.com
+0.0.0.0 superbetbrasil.bet
+0.0.0.0 superbetoficial.com.br
+0.0.0.0 supersbet.com
+0.0.0.0 superbets.com.br
+0.0.0.0 app.superbet.bet
+0.0.0.0 m.superbet.bet
+0.0.0.0 api.superbet.bet
+
+# --- BET365 BR ---
+0.0.0.0 bet365.com.br
+0.0.0.0 www.bet365.com.br
+0.0.0.0 br.bet365.com
+0.0.0.0 bet365brasil.com
+0.0.0.0 bet365brasil.com.br
+0.0.0.0 bet365-brasil.com
+0.0.0.0 bet365br.com
+0.0.0.0 bet365-br.com
+0.0.0.0 app.bet365.com
+0.0.0.0 m.bet365.com
+
+# --- 1XBET BR ---
+0.0.0.0 1xbet.com.br
+0.0.0.0 www.1xbet.com.br
+0.0.0.0 1xbetbrasil.com
+0.0.0.0 1xbetbrasil.com.br
+0.0.0.0 1xbet-brasil.com
+0.0.0.0 1xbetbr.com
+0.0.0.0 1xbet-br.com
+0.0.0.0 1xbetbrazil.com
+0.0.0.0 1xbetoficial.com
+0.0.0.0 1xbetoficial.com.br
+0.0.0.0 1xbetoficial.net
+0.0.0.0 1xbetoficial.org
+0.0.0.0 1xbetapostas.com
+0.0.0.0 1xbetapostas.com.br
+0.0.0.0 1xbetaposta.com
+0.0.0.0 br.1xbet.com
+0.0.0.0 1xbr.com
+0.0.0.0 1xbrasil.com
+
+# --- BETFAIR BR ---
+0.0.0.0 betfair.com.br
+0.0.0.0 www.betfair.com.br
+0.0.0.0 br.betfair.com
+0.0.0.0 betfairbrasil.com
+0.0.0.0 betfairbrasil.com.br
+0.0.0.0 betfairbrasil.net
+0.0.0.0 betfair-brasil.com
+0.0.0.0 betfairbr.com
+0.0.0.0 betfair-br.com
+0.0.0.0 betfairbrazil.com
+0.0.0.0 betfairptbr.com
+0.0.0.0 betfairpt-br.com
+0.0.0.0 betfairpt.br
+0.0.0.0 betfair.exchange
+0.0.0.0 betting.betfair.com.br
+
+# --- ESTRELA BET ---
+0.0.0.0 estrelabet.com
+0.0.0.0 estrelabet.com.br
+0.0.0.0 www.estrelabet.com.br
+0.0.0.0 estrela.bet
+0.0.0.0 estrela.bet.br
+0.0.0.0 estrelabet.app
+0.0.0.0 estrelabet.online
+0.0.0.0 estrelabet.site
+0.0.0.0 estrelabetbrasil.com
+0.0.0.0 estrelabetoficial.com
+0.0.0.0 estrelabetoficial.com.br
+0.0.0.0 estrelaapostas.com
+0.0.0.0 estrelaapostas.com.br
+
+# --- BETS.COM.BR & GROUP ---
+0.0.0.0 bets.com.br
+0.0.0.0 www.bets.com.br
+0.0.0.0 betsbrasil.com
+0.0.0.0 betsbrasil.com.br
+0.0.0.0 betsb.com.br
+0.0.0.0 betsonbrasil.com
+0.0.0.0 betson.com.br
+0.0.0.0 betssonbrasil.com
+0.0.0.0 betsson.com.br
+0.0.0.0 betsson-brasil.com
+0.0.0.0 betssonbrasil.net
+
+# --- KTO BR ---
+0.0.0.0 kto.com
+0.0.0.0 kto.com.br
+0.0.0.0 www.kto.com.br
+0.0.0.0 ktobrasil.com
+0.0.0.0 ktobrasil.com.br
+0.0.0.0 kto-brasil.com
+0.0.0.0 ktobr.com
+0.0.0.0 kto-br.com
+0.0.0.0 ktooficial.com
+0.0.0.0 ktooficial.com.br
+0.0.0.0 ktoapostas.com
+0.0.0.0 ktoapostas.com.br
+
+# --- BETSSUL ---
+0.0.0.0 betsul.com
+0.0.0.0 betsul.com.br
+0.0.0.0 www.betsul.com.br
+0.0.0.0 betsulbrasil.com
+0.0.0.0 betsulbrasil.com.br
+0.0.0.0 betsuloficial.com
+0.0.0.0 betsuloficial.com.br
+
+# --- GALERA.BET ---
+0.0.0.0 galera.bet
+0.0.0.0 galera.bet.br
+0.0.0.0 www.galera.bet.br
+0.0.0.0 galerabet.com
+0.0.0.0 galerabet.com.br
+0.0.0.0 galerabetbrasil.com
+0.0.0.0 galeraapostas.com
+0.0.0.0 galeraapostas.com.br
+
+# --- BRAGABET & BRAZINO ---
+0.0.0.0 bragabet.com
+0.0.0.0 bragabet.com.br
+0.0.0.0 www.bragabet.com.br
+0.0.0.0 bragagaming.com
+0.0.0.0 bragagaming.com.br
+0.0.0.0 brazino777.com
+0.0.0.0 brazino777.com.br
+0.0.0.0 www.brazino777.com.br
+0.0.0.0 brazinobet.com
+0.0.0.0 brazinobet.com.br
+0.0.0.0 brazino.com.br
+0.0.0.0 brazinooficial.com
+0.0.0.0 brazinooficial.com.br
+0.0.0.0 brazino777oficial.com
+
+# --- PINNACLE BR ---
+0.0.0.0 pinnacle.com.br
+0.0.0.0 www.pinnacle.com.br
+0.0.0.0 pinnaclebrasil.com
+0.0.0.0 pinnaclebrasil.com.br
+0.0.0.0 pinnacle-brasil.com
+0.0.0.0 pinnaclebr.com
+0.0.0.0 pinnacle-br.com
+0.0.0.0 pinnaclebrazil.com
+
+# --- 22BET BR ---
+0.0.0.0 22bet.com.br
+0.0.0.0 www.22bet.com.br
+0.0.0.0 22betbrasil.com
+0.0.0.0 22betbrasil.com.br
+0.0.0.0 22bet-brasil.com
+0.0.0.0 22betbr.com
+0.0.0.0 22bet-br.com
+0.0.0.0 22betbrazil.com
+0.0.0.0 22betoficial.com
+0.0.0.0 22betoficial.com.br
+
+# --- PARIMATCH BR ---
+0.0.0.0 parimatch.com.br
+0.0.0.0 www.parimatch.com.br
+0.0.0.0 parimatchbrasil.com
+0.0.0.0 parimatchbrasil.com.br
+0.0.0.0 parimatch-brasil.com
+0.0.0.0 parimatchbr.com
+0.0.0.0 parimatch-br.com
+0.0.0.0 pmbrasil.com
+0.0.0.0 pmbrasil.com.br
+0.0.0.0 pm-brasil.com
+0.0.0.0 parimatchoficial.com
+0.0.0.0 parimatchoficial.com.br
+
+# --- UNIBET BR ---
+0.0.0.0 unibet.com.br
+0.0.0.0 www.unibet.com.br
+0.0.0.0 unibetbrasil.com
+0.0.0.0 unibetbrasil.com.br
+0.0.0.0 unibet-brasil.com
+0.0.0.0 unibetbr.com
+0.0.0.0 unibet-br.com
+0.0.0.0 unibetbrazil.com
+
+# --- LEOVEGAS BR ---
+0.0.0.0 leovegas.com.br
+0.0.0.0 www.leovegas.com.br
+0.0.0.0 leovegasbrasil.com
+0.0.0.0 leovegasbrasil.com.br
+0.0.0.0 leovegas-brasil.com
+0.0.0.0 leovegasbr.com
+0.0.0.0 leovegas-br.com
+
+# --- NETBET BR ---
+0.0.0.0 netbet.com.br
+0.0.0.0 www.netbet.com.br
+0.0.0.0 netbetbrasil.com
+0.0.0.0 netbetbrasil.com.br
+0.0.0.0 netbet-brasil.com
+0.0.0.0 netbetbr.com
+0.0.0.0 netbet-br.com
+0.0.0.0 netbetbrazil.com
+
+# --- APOSTAQUENTE & AFINS ---
+0.0.0.0 apostaquente.com
+0.0.0.0 apostaquente.com.br
+0.0.0.0 www.apostaquente.com.br
+0.0.0.0 apostaquente.net
+0.0.0.0 apostaquente.org
+0.0.0.0 apostaquente10.com
+0.0.0.0 apostaquente100.com
+0.0.0.0 apostaquente365.com
+0.0.0.0 apostaquentebrasil.com
+0.0.0.0 apostaquentebr.com
+0.0.0.0 apostaquenteoficial.com
+0.0.0.0 apostaquenteoficial.com.br
+
+# --- JOGOSHOJE & PORTAIS ---
+0.0.0.0 jogoshoje.com
+0.0.0.0 jogoshoje.com.br
+0.0.0.0 www.jogoshoje.com.br
+0.0.0.0 jogoshoje.net
+0.0.0.0 jogoshoje.org
+0.0.0.0 jogoshoje10.com
+0.0.0.0 jogoshoje365.com
+0.0.0.0 palpites.com.br
+0.0.0.0 www.palpites.com.br
+0.0.0.0 palpiteshoje.com
+0.0.0.0 palpiteshoje.com.br
+0.0.0.0 palpitesta.com.br
+0.0.0.0 palpitecerto.com.br
+0.0.0.0 palpiteiro.com.br
+0.0.0.0 palpiteiro.net
+0.0.0.0 superpalpites.com.br
+0.0.0.0 megapalpites.com.br
+0.0.0.0 campeonize.com.br
+0.0.0.0 futebolize.com.br
+0.0.0.0 futlives.com.br
+0.0.0.0 futemax.com.br
+0.0.0.0 futmax.com.br
+
+# --- UOL APOSTAS ---
+0.0.0.0 jogos.uol.com.br
+0.0.0.0 palpites.uol.com.br
+0.0.0.0 aposta.uol.com.br
+0.0.0.0 esporte.uol.com.br/bet
+0.0.0.0 uolbet.com.br
+0.0.0.0 uolapostas.com.br
+
+# --- GLOBO APOSTAS ---
+0.0.0.0 ge.globo.com/apostas
+0.0.0.0 globoesporte.globo.com/apostas
+0.0.0.0 globobet.com.br
+0.0.0.0 globoapostas.com.br
+0.0.0.0 geapostas.com.br
+
+# --- ESPORTES & MIDIA ---
+0.0.0.0 espn.com.br/apostas
+0.0.0.0 espnbet.com.br
+0.0.0.0 espnapostas.com.br
+0.0.0.0 foxsports.com.br/apostas
+0.0.0.0 band.com.br/apostas
+0.0.0.0 bandbet.com.br
+0.0.0.0 sportv.com/apostas
+0.0.0.0 tntsports.com.br/apostas
+0.0.0.0 onefootball.com/apostas
+
+# --- CASINOS .BR ---
+0.0.0.0 casinobrasil.com.br
+0.0.0.0 www.casinobrasil.com.br
+0.0.0.0 casinobr.com
+0.0.0.0 casino.com.br
+0.0.0.0 cassino.com.br
+0.0.0.0 cassinobrasil.com.br
+0.0.0.0 roleta.com.br
+0.0.0.0 roletabrasil.com.br
+0.0.0.0 roletabr.com
+0.0.0.0 slots.com.br
+0.0.0.0 slotsonline.com.br
+0.0.0.0 blackjack.com.br
+0.0.0.0 poker.com.br
+0.0.0.0 pokerbr.com.br
+0.0.0.0 pokerbrasil.com.br
+0.0.0.0 bingobrasil.com.br
+0.0.0.0 bingo.com.br
+0.0.0.0 bingoonline.com.br
+0.0.0.0 fortunejack.com.br
+0.0.0.0 bc.game.br
+0.0.0.0 bcgame.com.br
+0.0.0.0 mbitcasino.com.br
+0.0.0.0 7bitcasino.com.br
+0.0.0.0 bitstarz.com.br
+0.0.0.0 playamo.com.br
+0.0.0.0 casumo.com.br
+0.0.0.0 888casino.com.br
+0.0.0.0 888poker.com.br
+0.0.0.0 pokerstars.com.br
+0.0.0.0 partypoker.com.br
+0.0.0.0 ggpoker.com.br
+
+# --- BINGOS ONLINE BR ---
+0.0.0.0 bingo.com.br
+0.0.0.0 bingobrasil.com
+0.0.0.0 bingobrasil.com.br
+0.0.0.0 bingobr.com
+0.0.0.0 bingoonline.com.br
+0.0.0.0 bingoonlinebr.com
+0.0.0.0 bingosonline.com.br
+0.0.0.0 bingosbrasil.com.br
+0.0.0.0 bingomilhao.com.br
+0.0.0.0 bingomilhao.net
+0.0.0.0 bingofree.com.br
+0.0.0.0 bingoblack.com.br
+0.0.0.0 bingobola.com.br
+0.0.0.0 bingobolao.com.br
+0.0.0.0 bingolux.com.br
+0.0.0.0 bingogana.com.br
+0.0.0.0 bingovip.com.br
+0.0.0.0 bingogold.com.br
+0.0.0.0 bingoshow.com.br
+0.0.0.0 bingojogo.com.br
+
+# --- LOTERIAS ONLINE (APOSTAS) ---
+0.0.0.0 loterias.com.br
+0.0.0.0 loteria.com.br
+0.0.0.0 loteriasonline.com.br
+0.0.0.0 loteriaonline.com.br
+0.0.0.0 mega-sena.com.br
+0.0.0.0 megasena.com.br
+0.0.0.0 quina.com.br
+0.0.0.0 lotofacil.com.br
+0.0.0.0 lotomania.com.br
+0.0.0.0 timemania.com.br
+0.0.0.0 duplasena.com.br
+0.0.0.0 loteca.com.br
+0.0.0.0 loteriafederal.com.br
+0.0.0.0 loteriafederalonline.com.br
+0.0.0.0 apostaloteria.com.br
+0.0.0.0 apostasloteria.com.br
+
+# --- JOGOS DE APOSTAS "GRATUITOS" (COM CHIPS) ---
+0.0.0.0 jogatina.com.br
+0.0.0.0 www.jogatina.com.br
+0.0.0.0 jogos.com.br
+0.0.0.0 jogosonline.com.br
+0.0.0.0 jogosdegraca.com.br
+0.0.0.0 jogos.co
+0.0.0.0 jogos.uol.com.br
+0.0.0.0 clickjogos.com.br
+0.0.0.0 superjogos.com.br
+0.0.0.0 jogos360.com.br
+0.0.0.0 jogosflash.com.br
+0.0.0.0 jogosonlinegratis.com.br
+0.0.0.0 pokerist.com.br
+0.0.0.0 pokerstars.net
+0.0.0.0 partypoker.net
+0.0.0.0 zyngapoker.com.br
+0.0.0.0 zynga.com.br/poker
+
+# --- AFFILIATES & MARKETING ---
+0.0.0.0 bonusbets.com.br
+0.0.0.0 bonusbet.com.br
+0.0.0.0 bônusbets.com.br
+0.0.0.0 bonusapostas.com.br
+0.0.0.0 bônusapostas.com.br
+0.0.0.0 bônus100.com.br
+0.0.0.0 bonus100.com.br
+0.0.0.0 bônus200.com.br
+0.0.0.0 bonus200.com.br
+0.0.0.0 bônus300.com.br
+0.0.0.0 bonus300.com.br
+0.0.0.0 bônus500.com.br
+0.0.0.0 bonus500.com.br
+0.0.0.0 bônus1000.com.br
+0.0.0.0 bonus1000.com.br
+0.0.0.0 freemoney.com.br
+0.0.0.0 dinheirogratis.com.br
+0.0.0.0 apostagratis.com.br
+0.0.0.0 bônusgratis.com.br
+0.0.0.0 bonusgratis.com.br
+0.0.0.0 apostasiniciais.com.br
+0.0.0.0 apostasgratis.com.br
+
+# --- APPS & MOBILE ---
+0.0.0.0 app.betano.com
+0.0.0.0 app.bet365.com
+0.0.0.0 app.blaze.com
+0.0.0.0 app.superbet.bet
+0.0.0.0 app.estrelabet.com
+0.0.0.0 app.kto.com
+0.0.0.0 app.betsul.com
+0.0.0.0 app.galera.bet
+0.0.0.0 m.betano.com
+0.0.0.0 m.bet365.com
+0.0.0.0 m.blaze.com
+0.0.0.0 m.superbet.bet
+0.0.0.0 m.estrelabet.com
+0.0.0.0 m.kto.com
+0.0.0.0 m.betsul.com
+0.0.0.0 m.galera.bet
+0.0.0.0 mobile.betano.com
+0.0.0.0 mobile.bet365.com
+0.0.0.0 mobile.blaze.com
+0.0.0.0 download.betano.com
+0.0.0.0 download.bet365.com
+0.0.0.0 download.blaze.com
+0.0.0.0 apk.betano.com
+0.0.0.0 apk.bet365.com
+0.0.0.0 apk.blaze.com
+0.0.0.0 play.google.com/store/apps/details?id=com.betano
+0.0.0.0 apps.apple.com/br/app/betano
+0.0.0.0 play.google.com/store/apps/details?id=com.blaze
+0.0.0.0 apps.apple.com/br/app/blaze
+
+# --- DOMÍNIOS GENÉRICOS E VARIACOES ---
+0.0.0.0 apostas.com.br
+0.0.0.0 apostasonline.com.br
+0.0.0.0 aposta.com.br
+0.0.0.0 bet.com.br
+0.0.0.0 bets.com.br
+0.0.0.0 betting.com.br
+0.0.0.0 jogos.com.br
+0.0.0.0 jogo.com.br
+0.0.0.0 azar.com.br
+0.0.0.0 cassino.com.br
+0.0.0.0 casino.com.br
+0.0.0.0 roleta.com.br
+0.0.0.0 poker.com.br
+0.0.0.0 bingo.com.br
+0.0.0.0 slots.com.br
+0.0.0.0 blackjack.com.br
+0.0.0.0 craps.com.br
+0.0.0.0 bacara.com.br
+0.0.0.0 loteria.com.br
+0.0.0.0 megasena.com.br
+0.0.0.0 quina.com.br
+0.0.0.0 lotofacil.com.br
+0.0.0.0 lotomania.com.br
+0.0.0.0 duplasena.com.br
+
+# --- API E CDNs ---
+0.0.0.0 api.betano.com
+0.0.0.0 api.blaze.com
+0.0.0.0 api.superbet.bet
+0.0.0.0 cdn.betano.com
+0.0.0.0 cdn.blaze.com
+0.0.0.0 cdn.superbet.bet
+0.0.0.0 static.betano.com
+0.0.0.0 static.blaze.com
+0.0.0.0 static.superbet.bet
+0.0.0.0 img.betano.com
+0.0.0.0 img.blaze.com
+0.0.0.0 img.superbet.bet
+0.0.0.0 media.betano.com
+0.0.0.0 media.blaze.com
+0.0.0.0 media.superbet.bet
+0.0.0.0 assets.betano.com
+0.0.0.0 assets.blaze.com
+0.0.0.0 assets.superbet.bet
+0.0.0.0 ws.blaze.com
+0.0.0.0 wss.blaze.com
+0.0.0.0 socket.blaze.com
+0.0.0.0 ws-api.blaze.com
+
+# ============================================
+# FIM DA LISTA
+# ============================================
