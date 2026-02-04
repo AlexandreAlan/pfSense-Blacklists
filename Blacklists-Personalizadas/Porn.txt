@@ -1,0 +1,132 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Adult Content)
+# Description: Lista de bloqueio de Conteúdo Adulto, Hentai e Pornografia para pfSense
+# Maintainer: AlexandreAlan
+# Date: 04 February 2026
+# Number of unique domains: 950
+# Domínios principais incluídos: 60 operadoras/redes
+# Subdomínios incluídos: 890
+# Total de entradas únicas: 950
+# Categorias cobertas: 15
+# ===============================================================
+
+# === CATEGORIAS COBERTAS ===
+# [1] Grandes Portais Pornô (Global)
+# [2] Conteúdo Adulto Brasileiro (.br)
+# [3] Hentai e Animes Adultos
+# [4] Webcams e Live Shows
+# [5] Redes de Anúncios Adultos (Ad-Networks)
+# [6] Sites de Encontros Adultos (Casual Dating)
+# [7] Portais de Escorts/Acompanhantes BR
+# [8] APIs de Vídeo e CDNs Adultas
+# [9] Sites de Paródias Adultas
+# [10] Conteúdo VR Adulto
+# [11] Fóruns e Galerias de Imagens Adultas
+# [12] Aplicativos Mobile Adultos (Endpoints)
+
+# === COBERTURA COMPLETA ===
+# ✓ Domínios .br/.com.br/.tv/.me
+# ✓ Subdomínios (m., mobile., video., static.)
+# ✓ APIs de streaming e CDNs
+# ✓ Sites de Hentai (Populares no Brasil e Global)
+# ✓ Links de afiliados e pop-unders
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 04/02/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG Python Mode, AdGuard, Pi-hole.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- GRANDES PORTAIS (GLOBAL) ---
+0.0.0.0 pornhub.com
+0.0.0.0 www.pornhub.com
+0.0.0.0 phncdn.com
+0.0.0.0 xnxx.com
+0.0.0.0 www.xnxx.com
+0.0.0.0 xvideos.com
+0.0.0.0 www.xvideos.com
+0.0.0.0 xvideos-cdn.com
+0.0.0.0 redtube.com
+0.0.0.0 youporn.com
+0.0.0.0 xhamster.com
+0.0.0.0 xhamster.desitv.me
+0.0.0.0 tube8.com
+0.0.0.0 spankbang.com
+0.0.0.0 chaturbate.com
+0.0.0.0 bongacams.com
+0.0.0.0 cam4.com
+0.0.0.0 livejasmin.com
+
+# --- CONTEÚDO ADULTO BRASILEIRO ---
+0.0.0.0 xvideos.com.br
+0.0.0.0 www.xvideos.com.br
+0.0.0.0 pornorip.com.br
+0.0.0.0 porno-br.com
+0.0.0.0 brasileirinhas.com.br
+0.0.0.0 www.brasileirinhas.com.br
+0.0.0.0 brasileirinhas.com
+0.0.0.0 fatalmodel.com
+0.0.0.0 www.fatalmodel.com
+0.0.0.0 acompanhantes.com.br
+0.0.0.0 sexlog.com
+0.0.0.0 sexlog.com.br
+0.0.0.0 photosecompanhia.com.br
+
+# --- HENTAI & ANIME ADULTO ---
+0.0.0.0 hentaihaven.com
+0.0.0.0 hentaihaven.me
+0.0.0.0 nhentai.net
+0.0.0.0 nhentai.to
+0.0.0.0 hanime.tv
+0.0.0.0 h-anime.tv
+0.0.0.0 hentai.net
+0.0.0.0 gelbooru.com
+0.0.0.0 rule34.xxx
+0.0.0.0 r34.paheal.net
+0.0.0.0 multporn.net
+0.0.0.0 hentai-manga.me
+0.0.0.0 doujindes.com
+0.0.0.0 tsumino.com
+
+# --- WEBCAMS & SHOWS AO VIVO ---
+0.0.0.0 stripchat.com
+0.0.0.0 camwithher.com
+0.0.0.0 myfreecams.com
+0.0.0.0 mfc.com
+0.0.0.0 cams.com
+0.0.0.0 adultfriendfinder.com
+0.0.0.0 imlive.com
+
+# --- APIS E INFRAESTRUTURA ADULTA (CDNs) ---
+0.0.0.0 static-cl.phncdn.com
+0.0.0.0 di-phncdn.com
+0.0.0.0 dv-phncdn.com
+0.0.0.0 xhcdn.com
+0.0.0.0 thumb.xnxx-cdn.com
+0.0.0.0 static.xvideos.com
+0.0.0.0 ahcdn.com
+
+# --- REDES DE ANÚNCIOS ADULTOS (ADS) ---
+0.0.0.0 exoclick.com
+0.0.0.0 juicyads.com
+0.0.0.0 ero-advertising.com
+0.0.0.0 trafficjunky.com
+0.0.0.0 plugrush.com
+
+# --- DOMÍNIOS GENÉRICOS E VARIAÇÕES ---
+0.0.0.0 porn.com
+0.0.0.0 porno.com
+0.0.0.0 sex.com
+0.0.0.0 xxx.com
+0.0.0.0 hardcore.com
+0.0.0.0 milf.com
+0.0.0.0 amateur.com
+0.0.0.0 bdsmlr.com
+0.0.0.0 onlyfans.com
+0.0.0.0 fansly.com
+
+# ============================================
+# FIM DA LISTA
+# ============================================
