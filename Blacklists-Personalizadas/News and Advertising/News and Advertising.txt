@@ -1,0 +1,80 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Ads & News)
+# Description: Lista de bloqueio de Anúncios, Tracking e Portais de Notícias
+# Maintainer: AlexandreAlan
+# Date: 13 February 2026
+# Version: 1.0
+# ===============================================================
+
+# === CATEGORIAS PRINCIPAIS ===
+# [1] Ad-Servers & Redes de Anúncios (Global/BR)
+# [2] Tracking & Telemetria (Análise de comportamento)
+# [3] Grandes Portais de Notícias (Brasil)
+# [4] Taboola/Outbrain (Clickbait & Recomendados)
+# [5] Afiliados e Remarketing
+
+# === COBERTURA COMPLETA ===
+# ✓ Domínios de servidores de banners
+# ✓ Scripts de rastreamento de usuários
+# ✓ Portais de notícias com paywall/excesso de ads
+# ✓ Redes de "Artigos Relacionados" (Ads disfarçados)
+
+# === COMPATIBILIDADE ===
+# pfBlockerNG, AdGuard, Pi-hole, Unbound.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- GRANDES PORTAIS DE NOTÍCIAS (BR) ---
+0.0.0.0 globo.com
+0.0.0.0 www.globo.com
+0.0.0.0 g1.globo.com
+0.0.0.0 oglobo.globo.com
+0.0.0.0 uol.com.br
+0.0.0.0 www.uol.com.br
+0.0.0.0 folha.uol.com.br
+0.0.0.0 estadao.com.br
+0.0.0.0 r7.com
+0.0.0.0 terra.com.br
+0.0.0.0 bbc.com/portuguese
+0.0.0.0 cnnbrasil.com.br
+0.0.0.0 metropoles.com
+0.0.0.0 ig.com.br
+
+# --- TABOOLA & OUTBRAIN (ADS DE CONTEÚDO) ---
+0.0.0.0 taboola.com
+0.0.0.0 api.taboola.com
+0.0.0.0 cdn.taboola.com
+0.0.0.0 outbrain.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0 outbrainimg.com
+0.0.0.0 ampproject.org
+
+# --- GOOGLE ADS & ANALYTICS (TRACKING) ---
+0.0.0.0 doubleclick.net
+0.0.0.0 googleadservices.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 google-analytics.com
+0.0.0.0 analytics.google.com
+0.0.0.0 ads.google.com
+0.0.0.0 adservice.google.com
+
+
+# --- OUTRAS REDES DE ANÚNCIOS (POPULAR BR) ---
+0.0.0.0 adman.com.br
+0.0.0.0 ads.afilio.com.br
+0.0.0.0 lomadee.com
+0.0.0.0 adsystem.com
+0.0.0.0 popads.net
+0.0.0.0 propellerads.com
+0.0.0.0 adnxs.com
+
+# --- TELEMETRIA & CRASH REPORTS ---
+0.0.0.0 crashlytics.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 amplitude.com
+
+# ===============================================================
+# FIM DA LISTA
+# ===============================================================
