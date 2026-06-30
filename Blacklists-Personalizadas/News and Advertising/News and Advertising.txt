@@ -1,8 +1,8 @@
 # Title: AlexandreAlan - Blacklist Personalizada (Ads & News)
 # Description: Lista de bloqueio de Anúncios, Tracking e Portais de Notícias
 # Maintainer: AlexandreAlan
-# Date: 13 February 2026
-# Version: 1.0
+# Date: 30 June 2026
+# Version: 2.0
 # ===============================================================
 
 # === CATEGORIAS PRINCIPAIS ===
@@ -11,6 +11,11 @@
 # [3] Grandes Portais de Notícias (Brasil)
 # [4] Taboola/Outbrain (Clickbait & Recomendados)
 # [5] Afiliados e Remarketing
+# [6] Meta/Facebook Pixel & Tracking Social
+# [7] Microsoft Clarity & Session Recording
+# [8] Atribuição Mobile (AppsFlyer, Branch, Adjust)
+# [9] Redes Programáticas (Criteo, Rubicon, OpenX)
+# [10] Pixels Sociais (TikTok, Pinterest, Twitter/X Ads)
 
 # === COBERTURA COMPLETA ===
 # ✓ Domínios de servidores de banners
@@ -74,6 +79,115 @@
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 amplitude.com
+
+
+# ===============================================================
+# [6] META / FACEBOOK PIXEL & TRACKING SOCIAL
+# ===============================================================
+
+0.0.0.0 connect.facebook.net
+0.0.0.0 pixel.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 tr.facebook.com
+0.0.0.0 graph.facebook.com
+
+# ===============================================================
+# [7] MICROSOFT CLARITY & SESSION RECORDING
+# ===============================================================
+
+0.0.0.0 clarity.ms
+0.0.0.0 bat.bing.com
+0.0.0.0 ads.microsoft.com
+0.0.0.0 hotjar.com
+0.0.0.0 static.hotjar.com
+0.0.0.0 script.hotjar.com
+0.0.0.0 vars.hotjar.com
+0.0.0.0 mouseflow.com
+
+# ===============================================================
+# [8] ATRIBUIÇÃO MOBILE (APPSFLYER, BRANCH, ADJUST)
+# ===============================================================
+
+0.0.0.0 appsflyer.com
+0.0.0.0 af-measurement.com
+0.0.0.0 branch.io
+0.0.0.0 app.link
+0.0.0.0 adjust.com
+0.0.0.0 app.adjust.com
+0.0.0.0 kochava.com
+
+# ===============================================================
+# [9] REDES PROGRAMÁTICAS (DISPLAY/HEADER BIDDING)
+# ===============================================================
+
+0.0.0.0 criteo.com
+0.0.0.0 rtax.criteo.com
+0.0.0.0 static.criteo.net
+0.0.0.0 rubiconproject.com
+0.0.0.0 openx.net
+0.0.0.0 pubmatic.com
+0.0.0.0 indexexchange.com
+0.0.0.0 appnexus.com
+0.0.0.0 media.net
+0.0.0.0 bidswitch.net
+0.0.0.0 sharethrough.com
+0.0.0.0 triplelift.com
+0.0.0.0 smartadserver.com
+0.0.0.0 33across.com
+0.0.0.0 sovrn.com
+0.0.0.0 spotx.tv
+0.0.0.0 spotxchange.com
+0.0.0.0 freewheel.tv
+0.0.0.0 teads.tv
+0.0.0.0 yieldmo.com
+
+# ===============================================================
+# [10] PIXELS SOCIAIS E ANALYTICS ADICIONAL
+# ===============================================================
+
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 ads.tiktok.com
+0.0.0.0 ct.pinterest.com
+0.0.0.0 analytics.pinterest.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 ads-api.twitter.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 snap.licdn.com
+0.0.0.0 mixpanel.com
+0.0.0.0 api.mixpanel.com
+0.0.0.0 segment.com
+0.0.0.0 cdn.segment.com
+0.0.0.0 api.segment.io
+0.0.0.0 intercom.io
+0.0.0.0 widget.intercom.io
+0.0.0.0 intercomcdn.com
+0.0.0.0 klaviyo.com
+0.0.0.0 static.klaviyo.com
+
+# ===============================================================
+# [11] PORTAIS DE NOTÍCIAS BR ADICIONAIS
+# ===============================================================
+
+0.0.0.0 correiobraziliense.com.br
+0.0.0.0 correio24horas.com.br
+0.0.0.0 gazetaonline.com.br
+0.0.0.0 gazetadopovo.com.br
+0.0.0.0 opovo.com.br
+0.0.0.0 diariodepernambuco.com.br
+0.0.0.0 jornaldaparaiba.com.br
+0.0.0.0 veja.abril.com.br
+0.0.0.0 exame.com
+0.0.0.0 infomoney.com.br
+0.0.0.0 jovempan.com.br
+0.0.0.0 band.uol.com.br
+
+# ===============================================================
+# [12] REDES DE ADS BR ADICIONAIS
+# ===============================================================
+
+0.0.0.0 reamp.com.br
+0.0.0.0 adtail.com.br
+0.0.0.0 dmarket.com.br
 
 # ===============================================================
 # FIM DA LISTA
