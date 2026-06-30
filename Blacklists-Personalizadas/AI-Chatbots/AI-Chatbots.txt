@@ -1,0 +1,88 @@
+# Title: AlexandreAlan - Blacklist Personalizada (AI Chatbots & LLMs)
+# Description: Bloqueia plataformas de inteligência artificial generativa e chatbots
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo — controle de uso de IA / compliance / LGPD / prevenção de vazamento de dados
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] OpenAI / ChatGPT
+# [2] Google Gemini / Bard
+# [3] Microsoft Copilot
+# [4] Anthropic Claude
+# [5] Character.ai
+# [6] Perplexity AI
+# [7] Poe / Quora AI
+# [8] Mistral AI
+# [9] Grok / xAI
+# [10] Outros chatbots e plataformas de IA
+
+# === AVISO ===
+# Use esta lista apenas se a política corporativa proibir uso de IA generativa
+# para fins de compliance, proteção de dados (LGPD/GDPR) ou segurança da informação.
+# Muitos desses serviços são também usados para produtividade legítima.
+
+# === [1] OpenAI / ChatGPT ===
+0.0.0.0 chat.openai.com
+0.0.0.0 api.openai.com
+0.0.0.0 openai.com
+0.0.0.0 cdn.oaistatic.com
+0.0.0.0 files.oaiusercontent.com
+0.0.0.0 chatgpt.com
+0.0.0.0 auth0.openai.com
+0.0.0.0 sora.com
+
+# === [2] Google Gemini ===
+0.0.0.0 gemini.google.com
+0.0.0.0 bard.google.com
+0.0.0.0 generativelanguage.googleapis.com
+0.0.0.0 aistudio.google.com
+
+# === [3] Microsoft Copilot ===
+0.0.0.0 copilot.microsoft.com
+0.0.0.0 bing.com
+0.0.0.0 edgeservices.bing.com
+
+# === [4] Anthropic Claude ===
+0.0.0.0 claude.ai
+0.0.0.0 api.anthropic.com
+0.0.0.0 anthropic.com
+
+# === [5] Character.ai ===
+0.0.0.0 character.ai
+0.0.0.0 beta.character.ai
+0.0.0.0 plus.character.ai
+
+# === [6] Perplexity AI ===
+0.0.0.0 perplexity.ai
+0.0.0.0 api.perplexity.ai
+
+# === [7] Poe / Quora AI ===
+0.0.0.0 poe.com
+0.0.0.0 quora.com
+0.0.0.0 api.poe.com
+
+# === [8] Mistral AI ===
+0.0.0.0 mistral.ai
+0.0.0.0 console.mistral.ai
+0.0.0.0 api.mistral.ai
+0.0.0.0 chat.mistral.ai
+
+# === [9] Grok / xAI ===
+0.0.0.0 grok.com
+0.0.0.0 grok.x.ai
+0.0.0.0 x.ai
+
+# === [10] Outros ===
+0.0.0.0 you.com
+0.0.0.0 phind.com
+0.0.0.0 writesonic.com
+0.0.0.0 jasper.ai
+0.0.0.0 copy.ai
+0.0.0.0 huggingface.co
+0.0.0.0 replicate.com
+0.0.0.0 inflection.ai
+0.0.0.0 pi.ai
+0.0.0.0 cohere.com
+0.0.0.0 ai21.com
