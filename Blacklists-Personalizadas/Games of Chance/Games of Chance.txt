@@ -1,27 +1,30 @@
 # Title: AlexandreAlan - Blacklist Personalizada
 # Description: Lista de bloqueio de Jogos de Azar para pfSense
 # Maintainer: AlexandreAlan
-# Date: 04 February 2026
-# Number of unique domains: 785
-# Domínios principais incluídos: 45 operadoras
-# Subdomínios incluídos: 740
-# Total de entradas únicas: 785
-# Categorias cobertas: 12
+# Date: 30 June 2026
+# Number of unique domains: 1040
+# Domínios principais incluídos: 68 operadoras
+# Subdomínios incluídos: 972
+# Total de entradas únicas: 1040
+# Categorias cobertas: 15
 # ===============================================================
 
 # === CATEGORIAS PRINCIPAIS ===
-# [1] Apostas Esportivas (BR) - 12 operadoras - 115 domínios
-# [2] Cassinos Online (BR) - 10 operadoras - 82 domínios
-# [3] Bingos Online - 6 operadoras - 42 domínios
-# [4] Loterias Online - 4 operadoras - 38 domínios
-# [5] Portais/Palpites - 7 operadoras - 68 domínios
-# [6] Apps Mobile - Todas principais - 65 domínios
-# [7] Affiliates/Bônus - 6 operadoras - 55 domínios
-# [8] APIs/CDNs - Todas principais - 52 domínios
-# [9] Mídia Esportiva - 5 operadoras - 45 domínios
-# [10] Genéricos/Variações - 8 categorias - 120 domínios
-# [11] Cassinos Internacionais/Crypto - 6 operadoras - 58 domínios
-# [12] Infraestrutura PGSoft (Tigrinho) - 4 domínios principais - 45 subdomínios
+# [1] Apostas Esportivas (BR) - 25 operadoras
+# [2] Cassinos Online (BR) - 14 operadoras
+# [3] Bingos Online - 6 operadoras
+# [4] Loterias Online - 4 operadoras
+# [5] Portais/Palpites - 7 operadoras
+# [6] Apps Mobile - Todas principais
+# [7] Affiliates/Bônus - 6 operadoras
+# [8] APIs/CDNs - Todas principais
+# [9] Mídia Esportiva - 5 operadoras
+# [10] Genéricos/Variações - 8 categorias
+# [11] Cassinos Internacionais/Crypto - 8 operadoras
+# [12] Infraestrutura PGSoft (Tigrinho)
+# [13] Operadoras Licenciadas 2025 (Novas)
+# [14] Provedoras de Slots (Infraestrutura)
+# [15] Jogo do Bicho Digital
 
 # === PRINCIPAIS OPERADORAS BLOQUEADAS ===
 # Betano Group (13 domínios)
@@ -47,8 +50,8 @@
 # ✓ Portais de notícias e afiliados
 
 # === ATUALIZAÇÃO ===
-# Última revisão: 04/02/2026
-# Próxima revisão recomendada: 04/03/2026
+# Última revisão: 30/06/2026
+# Próxima revisão recomendada: 30/09/2026
 # Método: Bloqueio por DNS (0.0.0.0)
 # Compatível: pfBlockerNG, AdGuard, Pi-hole.
 
@@ -286,6 +289,231 @@
 0.0.0.0 azar.com.br
 0.0.0.0 cassino.com.br
 0.0.0.0 roleta.com.br
+
+
+# ============================================
+# [13] OPERADORAS LICENCIADAS 2025 (NOVAS)
+# ============================================
+
+# --- GALERA.BET ---
+0.0.0.0 galera.bet
+0.0.0.0 www.galera.bet
+0.0.0.0 app.galera.bet
+0.0.0.0 m.galera.bet
+0.0.0.0 galerabet.com
+0.0.0.0 galerabet.com.br
+0.0.0.0 api.galera.bet
+
+# --- BODOG BRASIL ---
+0.0.0.0 bodog.com
+0.0.0.0 bodog.com.br
+0.0.0.0 www.bodog.com.br
+0.0.0.0 bodog.eu
+0.0.0.0 bodogbrasil.com
+0.0.0.0 bodogbr.com
+0.0.0.0 bodog.bet
+0.0.0.0 m.bodog.com
+
+# --- MR. JACK BET ---
+0.0.0.0 mrjackbet.com
+0.0.0.0 mrjackbet.com.br
+0.0.0.0 www.mrjackbet.com.br
+0.0.0.0 mrjack.bet
+0.0.0.0 mrjackbrasil.com
+0.0.0.0 app.mrjackbet.com
+
+# --- RIVALO ---
+0.0.0.0 rivalo.com
+0.0.0.0 www.rivalo.com
+0.0.0.0 rivalo.bet
+0.0.0.0 rivalo.com.br
+0.0.0.0 www.rivalo.com.br
+
+# --- NOVABET ---
+0.0.0.0 novabet.com
+0.0.0.0 novabet.com.br
+0.0.0.0 www.novabet.com.br
+0.0.0.0 novabet.bet
+0.0.0.0 novabetbrasil.com
+0.0.0.0 m.novabet.com
+
+# --- BETSSON ---
+0.0.0.0 betsson.com
+0.0.0.0 betsson.com.br
+0.0.0.0 www.betsson.com.br
+0.0.0.0 betsson.bet
+0.0.0.0 m.betsson.com
+
+# --- LEOVEGAS ---
+0.0.0.0 leovegas.com
+0.0.0.0 leovegas.com.br
+0.0.0.0 www.leovegas.com.br
+0.0.0.0 leovegas.bet
+0.0.0.0 app.leovegas.com
+0.0.0.0 m.leovegas.com
+
+# --- BETWAY ---
+0.0.0.0 betway.com
+0.0.0.0 betway.com.br
+0.0.0.0 www.betway.com.br
+0.0.0.0 betway.bet
+0.0.0.0 betwaybrasil.com
+0.0.0.0 app.betway.com
+
+# --- PARIMATCH ---
+0.0.0.0 parimatch.com
+0.0.0.0 parimatch.com.br
+0.0.0.0 www.parimatch.com.br
+0.0.0.0 parimatch.bet
+0.0.0.0 m.parimatch.com
+
+# --- F12.BET ---
+0.0.0.0 f12.bet
+0.0.0.0 www.f12.bet
+0.0.0.0 f12bet.com
+0.0.0.0 f12bet.com.br
+0.0.0.0 app.f12.bet
+
+# --- PAGBET ---
+0.0.0.0 pagbet.com
+0.0.0.0 pagbet.com.br
+0.0.0.0 www.pagbet.com.br
+0.0.0.0 app.pagbet.com
+
+# --- BETSUL ---
+0.0.0.0 betsul.com
+0.0.0.0 betsul.com.br
+0.0.0.0 www.betsul.com.br
+0.0.0.0 betsul.bet
+0.0.0.0 m.betsul.com
+
+# --- 22BET ---
+0.0.0.0 22bet.com
+0.0.0.0 22bet.com.br
+0.0.0.0 www.22bet.com.br
+0.0.0.0 22betbrasil.com
+0.0.0.0 22bet.bet
+0.0.0.0 m.22bet.com
+
+# --- MELBET ---
+0.0.0.0 melbet.com
+0.0.0.0 melbet.com.br
+0.0.0.0 www.melbet.com.br
+0.0.0.0 melbetbrasil.com
+0.0.0.0 melbet.bet
+0.0.0.0 m.melbet.com
+
+# --- MEGAPARI ---
+0.0.0.0 megapari.com
+0.0.0.0 megapari.com.br
+0.0.0.0 megapari.bet
+0.0.0.0 www.megapari.com
+
+# --- JONBET ---
+0.0.0.0 jonbet.com
+0.0.0.0 jonbet.com.br
+0.0.0.0 www.jonbet.com.br
+0.0.0.0 app.jonbet.com
+
+# --- SPORTSBET.IO (CRYPTO) ---
+0.0.0.0 sportsbet.io
+0.0.0.0 app.sportsbet.io
+0.0.0.0 m.sportsbet.io
+
+# --- BET7K ---
+0.0.0.0 bet7k.com
+0.0.0.0 www.bet7k.com
+0.0.0.0 bet7k.com.br
+0.0.0.0 app.bet7k.com
+0.0.0.0 bet7000.com
+
+# --- BRBET ---
+0.0.0.0 brbet.com
+0.0.0.0 brbet.com.br
+0.0.0.0 www.brbet.com.br
+0.0.0.0 app.brbet.com
+
+# --- CODERE ---
+0.0.0.0 codere.com
+0.0.0.0 codere.com.br
+0.0.0.0 www.codere.com.br
+0.0.0.0 codere.bet.br
+0.0.0.0 app.codere.com
+
+# --- BETGOL ---
+0.0.0.0 betgol.com.br
+0.0.0.0 www.betgol.com.br
+0.0.0.0 betgol.bet
+
+# --- PINNACLE ---
+0.0.0.0 pinnacle.com
+0.0.0.0 pinnaclesports.com
+0.0.0.0 pinnacle.com.br
+
+# --- PLANET BET ---
+0.0.0.0 planetbet.com.br
+0.0.0.0 www.planetbet.com.br
+0.0.0.0 planet.bet
+
+# --- NOVIBET ---
+0.0.0.0 novibet.com.br
+0.0.0.0 www.novibet.com.br
+0.0.0.0 novibet.bet
+0.0.0.0 novibet.com
+
+# --- ONABET ---
+0.0.0.0 onabet.com
+0.0.0.0 onabet.com.br
+0.0.0.0 www.onabet.com.br
+
+# --- TIGRAOBETS ---
+0.0.0.0 tigraobet.com
+0.0.0.0 tigraobets.com
+0.0.0.0 tigrao.bet
+
+# --- APOSTAGANHA ---
+0.0.0.0 apostaganha.com
+0.0.0.0 apostaganha.com.br
+0.0.0.0 www.apostaganha.com.br
+
+# --- BETCRIS ---
+0.0.0.0 betcris.com
+0.0.0.0 betcris.com.br
+0.0.0.0 www.betcris.com.br
+
+# --- WILD.IO / BITSTARZ (CRYPTO CASINO) ---
+0.0.0.0 wild.io
+0.0.0.0 bitstarz.com
+0.0.0.0 bitstarz.io
+0.0.0.0 jackpotcity.com
+
+# ============================================
+# [14] PROVEDORAS DE SLOTS (INFRAESTRUTURA)
+# ============================================
+
+0.0.0.0 pragmaticplaylive.net
+0.0.0.0 pragmatic-external.com
+0.0.0.0 pragmaticplay.net
+0.0.0.0 evolutiongaming.com
+0.0.0.0 evolution.com
+0.0.0.0 netent.com
+0.0.0.0 redtigergaming.com
+0.0.0.0 spribegaming.com
+0.0.0.0 spribe.co
+0.0.0.0 hacksaw.games
+0.0.0.0 nolimitcity.com
+0.0.0.0 pushgaming.com
+0.0.0.0 relax-gaming.com
+
+# ============================================
+# [15] JOGO DO BICHO DIGITAL
+# ============================================
+
+0.0.0.0 jogosdobicho.com.br
+0.0.0.0 bichobet.com.br
+0.0.0.0 bichodigital.com.br
+0.0.0.0 jogobicho.com.br
+0.0.0.0 bichoonline.com.br
 
 # ============================================
 # FIM DA LISTA
