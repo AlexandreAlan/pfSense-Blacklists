@@ -1,0 +1,72 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Education Cheating / Cola Escolar)
+# Description: Bloqueia sites de cola, gabarito, banco de questões e plágio acadêmico
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Escolas, universidades, ambientes educacionais, controle parental
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Banco de Questões e Respostas (Brainly, Chegg)
+# [2] Plágio Acadêmico / Essay Mills
+# [3] Gabaritos ENEM / Vestibular BR
+# [4] Sites de Solução de Exercícios
+# [5] IA para dever de casa
+# [6] Tradutores de plágio
+
+# === [1] Banco de Questões e Respostas ===
+0.0.0.0 brainly.com.br
+0.0.0.0 brainly.com
+0.0.0.0 chegg.com
+0.0.0.0 coursehero.com
+0.0.0.0 studocu.com
+0.0.0.0 slader.com
+0.0.0.0 quizlet.com
+0.0.0.0 socratic.org
+0.0.0.0 numerade.com
+0.0.0.0 bartleby.com
+
+# === [2] Plágio Acadêmico / Essay Mills ===
+0.0.0.0 trabalhosescolares.net
+0.0.0.0 trabalhosfaculdade.com.br
+0.0.0.0 redacoesprontas.com.br
+0.0.0.0 monografiaspronta.com.br
+0.0.0.0 tccprontos.com.br
+0.0.0.0 essaytyper.com
+0.0.0.0 academicpaperwriter.com
+0.0.0.0 edubirdie.com
+0.0.0.0 papersowl.com
+0.0.0.0 writingcreek.com
+
+# === [3] Gabaritos ENEM / Vestibular BR ===
+0.0.0.0 gabaritoenem.com.br
+0.0.0.0 gabarito-vestibular.com.br
+0.0.0.0 gabarito.net
+0.0.0.0 resolucaoenem.com.br
+0.0.0.0 gabaritoonline.com.br
+
+# === [4] Solução de Exercícios ===
+0.0.0.0 photomath.com
+0.0.0.0 mathway.com
+0.0.0.0 symbolab.com
+0.0.0.0 wolframalpha.com
+0.0.0.0 cymath.com
+0.0.0.0 mathpapa.com
+0.0.0.0 mathsolver.microsoft.com
+0.0.0.0 tiger-algebra.com
+
+# === [5] IA para Dever de Casa ===
+0.0.0.0 homeworkai.com
+0.0.0.0 homeworkify.net
+0.0.0.0 gauthmath.com
+0.0.0.0 mathgpt.net
+0.0.0.0 studymonkey.ai
+0.0.0.0 questionai.com
+0.0.0.0 smodin.io
+
+# === [6] Tradutores / Paráfrases de Plágio ===
+0.0.0.0 rewordify.com
+0.0.0.0 quillbot.com
+0.0.0.0 paraphraser.io
+0.0.0.0 spinbot.com
+0.0.0.0 wordtune.com
