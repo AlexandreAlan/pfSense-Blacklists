@@ -1,0 +1,67 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Fake News & Desinformação BR)
+# Description: Bloqueia sites conhecidos de desinformação, fake news e conteúdo manipulativo no Brasil
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Escolar, biblioteca pública, redes domésticas com foco em higiene informacional
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Sites de fake news identificados por fact-checkers BR (Agência Lupa, UOL Confere, Aos Fatos)
+# [2] Sites de teoria da conspiração
+# [3] Sites de pseudociência e medicina alternativa perigosa
+# [4] Sites de desinformação política BR
+# [5] Canais de spam informacional
+
+# === AVISO ===
+# Esta lista é baseada em sites identificados por fact-checkers brasileiros reconhecidos.
+# Atualizada periodicamente conforme novas fontes são identificadas.
+# Não bloqueia partidos políticos ou veículos de imprensa tradicionais.
+
+# === [1] Fake News identificados ===
+0.0.0.0 revistaoeste.com.br
+0.0.0.0 diariodobrasilonline.com.br
+0.0.0.0 pleno.news
+0.0.0.0 gazeta.news
+0.0.0.0 osbrasil.com.br
+0.0.0.0 conexaopolitica.com.br
+0.0.0.0 jornaldacidade.net
+0.0.0.0 terrabrasil.org.br
+0.0.0.0 noticiasdabrasilia.com.br
+0.0.0.0 brasilsemfronteiras.com
+0.0.0.0 247.news
+0.0.0.0 brasilnews.com.br
+0.0.0.0 portaldosbrasils.com.br
+
+# === [2] Teoria da Conspiração ===
+0.0.0.0 infowars.com
+0.0.0.0 naturalnews.com
+0.0.0.0 stopworldcontrol.com
+0.0.0.0 beforeitsnews.com
+0.0.0.0 globalresearch.ca
+0.0.0.0 verdadeaberta.com.br
+0.0.0.0 conspiracaoplanetaria.com.br
+
+# === [3] Pseudociência / Saúde Falsa ===
+0.0.0.0 voltaraosreinados.com
+0.0.0.0 natureba.com.br
+0.0.0.0 gerson.org
+0.0.0.0 mercola.com
+0.0.0.0 greenmedinfo.com
+0.0.0.0 childrenshealthdefense.org
+0.0.0.0 vienomineral.com.br
+
+# === [4] Desinformação Política BR ===
+0.0.0.0 verdadeabsoluta.net
+0.0.0.0 nocensura.com.br
+0.0.0.0 direitasja.com.br
+0.0.0.0 esquerdadiario.com.br
+0.0.0.0 patriotanacional.com
+0.0.0.0 200min.com.br
+
+# === [5] Spam Informacional / Clickbait Extremo ===
+0.0.0.0 mgn.tv
+0.0.0.0 feedimo.com
+0.0.0.0 sharewhat.me
+0.0.0.0 virale.cc
+0.0.0.0 noticiasaovivo.com.br
