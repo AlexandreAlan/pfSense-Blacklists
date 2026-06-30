@@ -1,0 +1,164 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Streaming & Entertainment)
+# Description: Bloqueio de plataformas de streaming e entretenimento
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo que bloqueia entretenimento no horário de trabalho / Controle de banda
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Netflix
+# [2] YouTube
+# [3] Disney+ / Star+
+# [4] Amazon Prime Video
+# [5] HBO Max / Max
+# [6] Spotify / Deezer / Apple Music
+# [7] Twitch
+# [8] Globoplay / Pluto TV
+# [9] Paramount+ / Apple TV+
+# [10] Crunchyroll / Anime
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 30/06/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, Pi-hole.
+# AVISO: Bloqueia apps mobile e Smart TV via API.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- NETFLIX ---
+0.0.0.0 netflix.com
+0.0.0.0 www.netflix.com
+0.0.0.0 nflximg.com
+0.0.0.0 nflxvideo.com
+0.0.0.0 nflxso.net
+0.0.0.0 nflxext.com
+0.0.0.0 nflximg.net
+0.0.0.0 netflixdnstest.com
+0.0.0.0 api.netflix.com
+0.0.0.0 cdn-0.nflximg.com
+0.0.0.0 ichnaea.netflix.com
+
+# --- YOUTUBE ---
+0.0.0.0 youtube.com
+0.0.0.0 www.youtube.com
+0.0.0.0 m.youtube.com
+0.0.0.0 youtu.be
+0.0.0.0 ytimg.com
+0.0.0.0 i.ytimg.com
+0.0.0.0 s.ytimg.com
+0.0.0.0 googlevideo.com
+0.0.0.0 yt3.ggpht.com
+0.0.0.0 youtube-nocookie.com
+0.0.0.0 youtubekids.com
+0.0.0.0 youtubei.googleapis.com
+0.0.0.0 music.youtube.com
+
+# --- DISNEY+ / STAR+ ---
+0.0.0.0 disneyplus.com
+0.0.0.0 www.disneyplus.com
+0.0.0.0 bamgrid.com
+0.0.0.0 disney-plus.net
+0.0.0.0 starplus.com
+0.0.0.0 www.starplus.com
+0.0.0.0 star-plus.com
+0.0.0.0 dssott.com
+0.0.0.0 disneystreaming.com
+0.0.0.0 go.com
+
+# --- AMAZON PRIME VIDEO ---
+0.0.0.0 primevideo.com
+0.0.0.0 www.primevideo.com
+0.0.0.0 atv-ext.amazon.com
+0.0.0.0 atv-ps.amazon.com
+0.0.0.0 amazon.com.br
+0.0.0.0 api.amazon.com
+0.0.0.0 aiv-delivery.net
+0.0.0.0 amazonvideo.com
+
+# --- HBO MAX / MAX ---
+0.0.0.0 hbomax.com
+0.0.0.0 www.hbomax.com
+0.0.0.0 max.com
+0.0.0.0 www.max.com
+0.0.0.0 hbo.com
+0.0.0.0 hbogolatam.com
+0.0.0.0 maxlatam.com
+0.0.0.0 warnerbros.com
+0.0.0.0 wbdstreaming.com
+
+# --- SPOTIFY ---
+0.0.0.0 spotify.com
+0.0.0.0 www.spotify.com
+0.0.0.0 scdn.co
+0.0.0.0 spotifycdn.com
+0.0.0.0 audio-ak.spotify.com
+0.0.0.0 open.spotify.com
+
+# --- DEEZER ---
+0.0.0.0 deezer.com
+0.0.0.0 www.deezer.com
+0.0.0.0 cdn.deezer.com
+0.0.0.0 api.deezer.com
+0.0.0.0 dzcdn.net
+
+# --- APPLE MUSIC / PODCASTS ---
+0.0.0.0 music.apple.com
+0.0.0.0 podcasts.apple.com
+0.0.0.0 itunes.apple.com
+0.0.0.0 itunesconnect.apple.com
+
+# --- TWITCH ---
+0.0.0.0 twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 jtvnw.net
+0.0.0.0 twitchapps.com
+0.0.0.0 twitchsvc.net
+0.0.0.0 static.twitchsvc.net
+0.0.0.0 clips.twitch.tv
+0.0.0.0 api.twitch.tv
+0.0.0.0 usher.twitchapps.com
+
+# --- GLOBOPLAY ---
+0.0.0.0 globoplay.globo.com
+0.0.0.0 playback.video.globo.com
+0.0.0.0 video.globo.com
+0.0.0.0 players.brightcove.net
+
+# --- PLUTO TV ---
+0.0.0.0 pluto.tv
+0.0.0.0 www.pluto.tv
+0.0.0.0 api.pluto.tv
+
+# --- PARAMOUNT+ ---
+0.0.0.0 paramountplus.com
+0.0.0.0 www.paramountplus.com
+0.0.0.0 cbs.com
+0.0.0.0 cbsi.com
+
+# --- APPLE TV+ ---
+0.0.0.0 tv.apple.com
+0.0.0.0 aod.itunes.apple.com
+0.0.0.0 play.itunes.apple.com
+
+# --- CRUNCHYROLL / ANIME ---
+0.0.0.0 crunchyroll.com
+0.0.0.0 www.crunchyroll.com
+0.0.0.0 static.crunchyroll.com
+0.0.0.0 vrv.co
+0.0.0.0 hidive.com
+0.0.0.0 www.hidive.com
+
+# --- OUTROS STREAMING ---
+0.0.0.0 claro.video
+0.0.0.0 viki.com
+0.0.0.0 mubi.com
+0.0.0.0 curiositystream.com
+0.0.0.0 discovery.com
+0.0.0.0 discoveryplus.com
+
+# ============================================
+# FIM DA LISTA
+# ============================================
