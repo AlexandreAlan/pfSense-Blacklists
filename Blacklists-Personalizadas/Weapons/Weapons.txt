@@ -1,0 +1,59 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Weapons & Armas)
+# Description: Bloqueia sites de compra/venda de armas, munições e equipamentos táticos
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Escolar, biblioteca pública, controle parental, corporativo restrito
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Lojas de armas BR
+# [2] Lojas internacionais de armas
+# [3] Munição e acessórios táticos
+# [4] Impressão 3D de armas / ghost guns
+# [5] Fóruns e comunidades de armas ilegais
+
+# === [1] Lojas de Armas BR ===
+0.0.0.0 defanti.com.br
+0.0.0.0 cbc.com.br
+0.0.0.0 armasecia.com.br
+0.0.0.0 lojanacionalarmas.com.br
+0.0.0.0 armatude.com.br
+0.0.0.0 tourosarmas.com.br
+0.0.0.0 armasecia.com.br
+0.0.0.0 casadoatiradorpb.com.br
+0.0.0.0 clubedotiro.com.br
+
+# === [2] Lojas Internacionais ===
+0.0.0.0 arniesairsoft.co.uk
+0.0.0.0 evike.com
+0.0.0.0 airsoftgi.com
+0.0.0.0 cheaperthandirt.com
+0.0.0.0 brownells.com
+0.0.0.0 gunbroker.com
+0.0.0.0 armslist.com
+0.0.0.0 cabelas.com
+0.0.0.0 sportsmansguide.com
+
+# === [3] Munição e Acessórios Táticos ===
+0.0.0.0 luckygunner.com
+0.0.0.0 ammo.com
+0.0.0.0 bulkammo.com
+0.0.0.0 wideners.com
+0.0.0.0 sgammo.com
+0.0.0.0 ammunitiondepot.com
+0.0.0.0 tacticalgear.com
+0.0.0.0 opticsplanet.com
+
+# === [4] Ghost Guns / Impressão 3D ===
+0.0.0.0 fosscad.net
+0.0.0.0 deterrenceispended.com
+0.0.0.0 printedguns.com
+0.0.0.0 ghostgunner.net
+0.0.0.0 80percentarms.com
+0.0.0.0 ghostguns.com
+
+# === [5] Fóruns Ilegais ===
+0.0.0.0 weaponsmarket.io
+0.0.0.0 blackmarketguns.net
+0.0.0.0 guntrader.uk
