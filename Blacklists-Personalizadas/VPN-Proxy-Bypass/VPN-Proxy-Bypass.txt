@@ -1,0 +1,170 @@
+# Title: AlexandreAlan - Blacklist Personalizada (VPN & Proxy Bypass)
+# Description: Bloqueio de serviços VPN e proxies usados para bypass de filtros de rede
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo / Escolas / ISPs que querem impedir evasão de filtros
+# AVISO: Bloqueia download e uso de VPNs. Não impede VPNs instaladas previamente.
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] VPNs Pagas (NordVPN, ExpressVPN, Surfshark...)
+# [2] VPNs Gratuitas (Psiphon, Lantern, Ultrasurf...)
+# [3] Sites de Proxy Web (Acesso anônimo via browser)
+# [4] Tor Network
+# [5] DNS-over-HTTPS públicos (bypass de DNS local)
+# [6] Smart DNS / Proxy DNS
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 30/06/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, Pi-hole.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- NORDVPN ---
+0.0.0.0 nordvpn.com
+0.0.0.0 www.nordvpn.com
+0.0.0.0 nordvpnteams.com
+0.0.0.0 downloads.nordcdn.com
+0.0.0.0 nordcdn.com
+
+# --- EXPRESSVPN ---
+0.0.0.0 expressvpn.com
+0.0.0.0 www.expressvpn.com
+0.0.0.0 lightway-tech.com
+0.0.0.0 expresscdn.com
+
+# --- SURFSHARK ---
+0.0.0.0 surfshark.com
+0.0.0.0 www.surfshark.com
+0.0.0.0 surfshark.one
+
+# --- PROTONVPN ---
+0.0.0.0 protonvpn.com
+0.0.0.0 www.protonvpn.com
+0.0.0.0 proton.me
+0.0.0.0 account.proton.me
+
+# --- CYBERGHOST ---
+0.0.0.0 cyberghostvpn.com
+0.0.0.0 www.cyberghostvpn.com
+
+# --- PRIVATE INTERNET ACCESS ---
+0.0.0.0 privateinternetaccess.com
+0.0.0.0 www.privateinternetaccess.com
+0.0.0.0 piaproxy.com
+
+# --- MULLVAD ---
+0.0.0.0 mullvad.net
+0.0.0.0 www.mullvad.net
+
+# --- WINDSCRIBE ---
+0.0.0.0 windscribe.com
+0.0.0.0 www.windscribe.com
+0.0.0.0 windscribeclient.com
+
+# --- TUNNELBEAR ---
+0.0.0.0 tunnelbear.com
+0.0.0.0 www.tunnelbear.com
+
+# --- IPVANISH ---
+0.0.0.0 ipvanish.com
+0.0.0.0 www.ipvanish.com
+
+# --- HIDEMYASS ---
+0.0.0.0 hidemyass.com
+0.0.0.0 www.hidemyass.com
+
+# --- HOTSPOT SHIELD ---
+0.0.0.0 hotspotshield.com
+0.0.0.0 www.hotspotshield.com
+
+# --- HIDE.ME ---
+0.0.0.0 hide.me
+0.0.0.0 www.hide.me
+
+# --- ZENMATE ---
+0.0.0.0 zenmate.com
+0.0.0.0 www.zenmate.com
+
+# --- BETTERNET ---
+0.0.0.0 betternet.co
+0.0.0.0 www.betternet.co
+
+# --- SPEEDIFY ---
+0.0.0.0 speedify.com
+0.0.0.0 www.speedify.com
+
+# --- TORGUARD ---
+0.0.0.0 torguard.net
+0.0.0.0 www.torguard.net
+
+# --- VYPRVPN ---
+0.0.0.0 vyprvpn.com
+0.0.0.0 www.vyprvpn.com
+
+# --- VPNS GRATUITAS / EVASÃO ---
+0.0.0.0 psiphon.ca
+0.0.0.0 psiphon3.com
+0.0.0.0 getlantern.org
+0.0.0.0 ultrasurf.us
+0.0.0.0 freegate.internet.org.cn
+0.0.0.0 hola.org
+0.0.0.0 www.hola.org
+0.0.0.0 olamvpn.com
+
+# --- PROXY WEB (ACESSO ANÔNIMO VIA BROWSER) ---
+0.0.0.0 hidester.com
+0.0.0.0 www.hidester.com
+0.0.0.0 filterbypass.me
+0.0.0.0 proxysite.com
+0.0.0.0 www.proxysite.com
+0.0.0.0 unblocker.yt
+0.0.0.0 kproxy.com
+0.0.0.0 www.kproxy.com
+0.0.0.0 proxy.org
+0.0.0.0 freeproxyserver.net
+0.0.0.0 croxyproxy.com
+0.0.0.0 www.croxyproxy.com
+0.0.0.0 hidemy.name
+0.0.0.0 proxfree.com
+0.0.0.0 anonymouse.org
+0.0.0.0 anonymizer.com
+0.0.0.0 vpnbook.com
+0.0.0.0 www.vpnbook.com
+0.0.0.0 spys.one
+0.0.0.0 proxylistplus.com
+
+# --- TOR NETWORK ---
+0.0.0.0 torproject.org
+0.0.0.0 www.torproject.org
+0.0.0.0 bridges.torproject.org
+0.0.0.0 metrics.torproject.org
+0.0.0.0 check.torproject.org
+0.0.0.0 tails.boum.org
+
+# --- DNS-OVER-HTTPS (DoH) PÚBLICOS ---
+# Impede bypass do DNS local via HTTPS
+0.0.0.0 dns.google
+0.0.0.0 8.8.8.8.in-addr.arpa
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 dns.quad9.net
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.cleanbrowsing.org
+0.0.0.0 doh.adguard.com
+0.0.0.0 dns.nextdns.io
+0.0.0.0 doh.dns.sb
+
+# --- SMART DNS / PROXY DNS ---
+0.0.0.0 unlocator.com
+0.0.0.0 getflix.com.au
+0.0.0.0 smartdns.co
+0.0.0.0 overplay.net
+
+# ============================================
+# FIM DA LISTA
+# ============================================
