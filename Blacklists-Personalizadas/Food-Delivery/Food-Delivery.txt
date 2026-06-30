@@ -1,0 +1,78 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Food Delivery)
+# Description: Bloqueia apps e plataformas de delivery de comida/produtos — BR focus
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo — reduzir distrações e uso pessoal durante horário de trabalho
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] iFood
+# [2] Uber Eats
+# [3] Rappi
+# [4] Loggi
+# [5] James Delivery / Zé Delivery
+# [6] Aiqfome
+# [7] Shopper
+# [8] Cornershop
+# [9] Outras plataformas de delivery BR
+
+# === [1] iFood ===
+0.0.0.0 ifood.com.br
+0.0.0.0 api.ifood.com.br
+0.0.0.0 app.ifood.com.br
+0.0.0.0 consumer.ifood.com.br
+0.0.0.0 merchant.ifood.com.br
+0.0.0.0 rc.ifood.com.br
+0.0.0.0 media.ifood.com.br
+0.0.0.0 static.ifood.com.br
+0.0.0.0 images.ifood.com.br
+0.0.0.0 restaurantes.ifood.com.br
+
+# === [2] Uber Eats ===
+0.0.0.0 ubereats.com
+0.0.0.0 api.ubereats.com
+0.0.0.0 cn-geo1.uber.com
+0.0.0.0 eats.uber.com
+
+# === [3] Rappi ===
+0.0.0.0 rappi.com.br
+0.0.0.0 api.rappi.com
+0.0.0.0 media.rappi.com
+0.0.0.0 rappi.com
+0.0.0.0 rest.rappi.com
+
+# === [4] Loggi ===
+0.0.0.0 loggi.com
+0.0.0.0 api.loggi.com
+0.0.0.0 app.loggi.com
+0.0.0.0 track.loggi.com
+
+# === [5] James / Zé Delivery ===
+0.0.0.0 jamesdelivery.com.br
+0.0.0.0 app.jamesdelivery.com.br
+0.0.0.0 zedelivery.com.br
+0.0.0.0 api.zedelivery.com.br
+
+# === [6] Aiqfome ===
+0.0.0.0 aiqfome.com
+0.0.0.0 api.aiqfome.com
+0.0.0.0 img.aiqfome.com
+
+# === [7] Shopper ===
+0.0.0.0 shopper.com.br
+0.0.0.0 api.shopper.com.br
+
+# === [8] Cornershop ===
+0.0.0.0 cornershopapp.com
+0.0.0.0 api.cornershopapp.com
+
+# === [9] Outras plataformas BR ===
+0.0.0.0 deliverymuch.com.br
+0.0.0.0 anota.ai
+0.0.0.0 goomer.app
+0.0.0.0 cardapio.digital
+0.0.0.0 lalamove.com
+0.0.0.0 entregaki.com.br
+0.0.0.0 pedidosya.com.br
+0.0.0.0 glovo.com
