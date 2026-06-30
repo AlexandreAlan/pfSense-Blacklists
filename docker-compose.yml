@@ -1,0 +1,7 @@
+services:
+  blacklists:
+    image: ghcr.io/alexandrealan/pfsense-blacklists:latest
+    container_name: pfsense-blacklists
+    restart: unless-stopped
+    ports:
+      - "8080:80"
