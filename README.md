@@ -5,8 +5,8 @@
 **Listas DNSBL curadas para pfSense, AdGuard Home e Pi-hole — foco no cenário brasileiro**
 
 [![Última Revisão](https://img.shields.io/badge/última_revisão-Junho_2026-blue)](https://github.com/AlexandreAlan/pfSense-Blacklists)
-[![Categorias](https://img.shields.io/badge/categorias-11-green)](https://github.com/AlexandreAlan/pfSense-Blacklists/tree/main/Blacklists-Personalizadas)
-[![Entradas](https://img.shields.io/badge/entradas-+2.400-orange)](https://github.com/AlexandreAlan/pfSense-Blacklists/tree/main/Blacklists-Personalizadas)
+[![Categorias](https://img.shields.io/badge/categorias-30-green)](https://github.com/AlexandreAlan/pfSense-Blacklists/tree/main/Blacklists-Personalizadas)
+[![Entradas](https://img.shields.io/badge/entradas-+4.000-orange)](https://github.com/AlexandreAlan/pfSense-Blacklists/tree/main/Blacklists-Personalizadas)
 [![Licença](https://img.shields.io/badge/licença-MIT-yellow)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/AlexandreAlan/pfSense-Blacklists)](https://github.com/AlexandreAlan/pfSense-Blacklists/issues)
 
@@ -50,6 +50,25 @@ Utilize sempre o link **Raw** para que seu firewall/bloqueador consiga ler a lis
 | 9 | 🪙 **Crypto Exchanges** | ~130 | Corporativo | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Crypto-Exchanges/Crypto-Exchanges.txt) |
 | 10 | 🔒 **VPN & Proxy Bypass** | ~120 | Corporativo, escolar | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/VPN-Proxy-Bypass/VPN-Proxy-Bypass.txt) |
 | 11 | 🛡️ **Malware Custom** | ~85 | Todos — phishing BR, cryptomining, fake Gov.br | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/malware-custom/malware-custom.txt) |
+| 12 | 🎮 **Gaming Platforms** | ~120 | Corporativo, escolar — controle de produtividade | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Gaming-Platforms/Gaming-Platforms.txt) |
+| 13 | 🍔 **Food Delivery** | ~50 | Corporativo — reduzir distrações no expediente | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Food-Delivery/Food-Delivery.txt) |
+| 14 | 🚗 **Ride Sharing** | ~45 | Corporativo — separar uso pessoal | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Ride-Sharing/Ride-Sharing.txt) |
+| 15 | 💬 **Messaging Apps** | ~55 | Corporativo restrito — apenas canais internos | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Messaging-Apps/Messaging-Apps.txt) |
+| 16 | ☁️ **Cloud Storage (DLP)** | ~55 | DLP corporativo — prevenção de exfiltração de dados | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Cloud-Storage-DLP/Cloud-Storage-DLP.txt) |
+| 17 | 🤖 **AI Chatbots** | ~50 | Corporativo — compliance LGPD / controle de IA | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/AI-Chatbots/AI-Chatbots.txt) |
+| 18 | 📰 **Fake News BR** | ~45 | Escolar, doméstico, higiene informacional | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Fake-News-BR/Fake-News-BR.txt) |
+| 19 | 🎣 **Scams & Phishing BR** | ~60 | Todos — golpes PIX, fake shops, phishing BR | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Scams-Phishing-BR/Scams-Phishing-BR.txt) |
+| 20 | 💊 **Drug Related** | ~40 | Escolar, corporativo, controle parental | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Drug-Related/Drug-Related.txt) |
+| 21 | 🔫 **Weapons** | ~45 | Escolar, biblioteca pública, controle parental | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Weapons/Weapons.txt) |
+| 22 | 📝 **Education Cheating** | ~60 | Escolar, universitário | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Education-Cheating/Education-Cheating.txt) |
+| 23 | 🛒 **eCommerce BR** | ~55 | Corporativo — compras pessoais no expediente | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/eCommerce-BR/eCommerce-BR.txt) |
+| 24 | ⛏️ **Cryptomining Pools** | ~65 | Todos — anti-cryptojacking | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Cryptomining-Pools/Cryptomining-Pools.txt) |
+| 25 | 📡 **IoT Telemetry** | ~60 | Privacidade doméstica, LGPD, home lab | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/IoT-Telemetry/IoT-Telemetry.txt) |
+| 26 | 📧 **Spam Infrastructure** | ~50 | ISPs, corporativo — bloquear origem de spam | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Spam-Infrastructure/Spam-Infrastructure.txt) |
+| 27 | 🕷️ **C2 & Botnets** | ~50 | Todos — detecção de malware ativo | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/C2-Botnets/C2-Botnets.txt) |
+| 28 | 📨 **Anonymous Email** | ~55 | Corporativo, SaaS — prevenir cadastros falsos | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Anonymous-Email/Anonymous-Email.txt) |
+| 29 | 🃏 **Online Betting Tier 2** | ~70 | Corporativo, escolar, ISPs | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Online-Betting-Tier2/Online-Betting-Tier2.txt) |
+| 30 | 🕵️ **Remote Work Bypass** | ~50 | Corporativo — anti-evasão de monitoramento | [Raw](https://raw.githubusercontent.com/AlexandreAlan/pfSense-Blacklists/main/Blacklists-Personalizadas/Remote-Work-Bypass/Remote-Work-Bypass.txt) |
 
 ---
 
@@ -80,7 +99,7 @@ Utilize sempre o link **Raw** para que seu firewall/bloqueador consiga ler a lis
 
 ---
 
-## Detalhes das Categorias
+## Detalhes das Categorias Originais
 
 ### 1. 🎰 Jogos de Azar & Apostas — ~1.040 entradas
 - 68 operadoras: Betano, Blaze, Superbet, Galera.bet, Bodog, LeoVegas, Betway, Betsul, 22Bet, Melbet, Codere, Pinnacle e mais
@@ -132,6 +151,67 @@ Utilize sempre o link **Raw** para que seu firewall/bloqueador consiga ler a lis
 - Pools XMRig/Monero (18 pools ativas)
 - Phishing bancário BR: Itaú, Bradesco, Caixa, Nubank, PIX
 - Fake Gov.br / INSS / DETRAN, malware distribution e cryptojacking JS
+
+---
+
+## Novas Categorias (v1.1.0)
+
+### 12. 🎮 Gaming Platforms — ~120 entradas
+Steam, Epic Games, Battle.net/Blizzard, PlayStation Network, Xbox Live, EA/Origin, Riot Games, Ubisoft, Garena/Free Fire BR, NVIDIA GeForce NOW
+
+### 13. 🍔 Food Delivery — ~50 entradas
+iFood, Uber Eats, Rappi, Loggi, James Delivery, Zé Delivery, Aiqfome, Shopper, Cornershop e outros BR
+
+### 14. 🚗 Ride Sharing — ~45 entradas
+Uber, 99/DiDi, inDriver, Cabify, BlaBlaCar, Lyft, patinetes (Lime, Bird) e aluguel de carro por app
+
+### 15. 💬 Messaging Apps — ~55 entradas
+WhatsApp Web, Telegram, Signal, Viber, Line, WeChat, Skype (pessoal), Kik, Wire e outros
+
+### 16. ☁️ Cloud Storage (DLP) — ~55 entradas
+Google Drive, Dropbox, OneDrive pessoal, Mega.nz, WeTransfer, MediaFire, Box, pCloud e compartilhamento avulso (gofile, file.io)
+
+### 17. 🤖 AI Chatbots — ~50 entradas
+ChatGPT/OpenAI, Gemini, Copilot, Claude, Character.ai, Perplexity, Poe, Mistral, Grok e outros LLMs
+
+### 18. 📰 Fake News BR — ~45 entradas
+Sites identificados por fact-checkers brasileiros (Agência Lupa, Aos Fatos, Uol Confere) como fontes de desinformação sistemática
+
+### 19. 🎣 Scams & Phishing BR — ~60 entradas
+Fake shops, golpes de investimento, phishing PIX, phishing de marketplaces (ML, Shopee), suporte técnico falso e phishing de streaming
+
+### 20. 💊 Drug Related — ~40 entradas
+Dark web market mirrors (clearnet), sites de parafernália, fóruns de uso e drogas sintéticas/designer drugs
+
+### 21. 🔫 Weapons — ~45 entradas
+Lojas de armas BR e internacionais, munição e acessórios táticos, ghost guns/impressão 3D e fóruns ilegais
+
+### 22. 📝 Education Cheating — ~60 entradas
+Brainly, Chegg, Coursehero, Photomath, Wolframalpha, essay mills, IA para dever de casa (HomeworkAI, Gauthmath) e parafrasers de plágio
+
+### 23. 🛒 eCommerce BR — ~55 entradas
+Shopee, Shein, AliExpress, Mercado Livre, Magazine Luiza, Americanas, Casas Bahia, Amazon BR, OLX, Enjoei, Wish, Temu e cashback
+
+### 24. ⛏️ Cryptomining Pools — ~65 entradas
+Pools XMR/BTC/ETH (nanopool, ethermine, f2pool, slushpool, nicehash), JS in-browser miners (coinhive, cryptoloot) e C2 de mineradores
+
+### 25. 📡 IoT Telemetry — ~60 entradas
+Smart TVs (Samsung, LG, Sony, TCL), Xiaomi/MIUI, Amazon Alexa/Fire TV, Google Home, impressoras (HP, Canon), câmeras Ring/Wyze e roteadores
+
+### 26. 📧 Spam Infrastructure — ~50 entradas
+Bulk mailers abusivos, rastreadores de e-mail em spam, landing pages de spam BR, serviços de e-mail descartável e redes de afiliados
+
+### 27. 🕷️ C2 & Botnets — ~50 entradas
+Cobalt Strike/Metasploit C2, botnets (Emotet, TrickBot, QakBot), RATs (AsyncRAT, njRAT), ransomware C2 (LockBit, BlackCat) e stressers DDoS
+
+### 28. 📨 Anonymous Email — ~55 entradas
+10minutemail, guerrillamail, tempmail, mailinator, yopmail, aliases anônimos (SimpleLogin, AnonAddy) e provedores com alto índice de abuso
+
+### 29. 🃏 Online Betting Tier 2 — ~70 entradas
+Cassinos menores no BR, sports betting internacionais (bet365, William Hill, Betfair), plataformas asiáticas (SBObet, 1xBet), poker online e eSports betting
+
+### 30. 🕵️ Remote Work Bypass — ~50 entradas
+Mouse jigglers/anti-idle, automação de desktop (AutoHotkey), evasão de monitoramento de RH, VPNs de evasão corporativa e acesso remoto pessoal não autorizado
 
 ---
 
