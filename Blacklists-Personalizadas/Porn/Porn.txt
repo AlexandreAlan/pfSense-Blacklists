@@ -1,12 +1,12 @@
 # Title: AlexandreAlan - Blacklist Personalizada (Adult Content)
 # Description: Lista de bloqueio de Conteúdo Adulto, Hentai e Pornografia para pfSense
 # Maintainer: AlexandreAlan
-# Date: 04 February 2026
-# Number of unique domains: 950
-# Domínios principais incluídos: 60 operadoras/redes
-# Subdomínios incluídos: 890
-# Total de entradas únicas: 950
-# Categorias cobertas: 15
+# Date: 30 June 2026
+# Number of unique domains: 1120
+# Domínios principais incluídos: 85 operadoras/redes
+# Subdomínios incluídos: 1035
+# Total de entradas únicas: 1120
+# Categorias cobertas: 18
 # ===============================================================
 
 # === CATEGORIAS COBERTAS ===
@@ -22,6 +22,12 @@
 # [10] Conteúdo VR Adulto
 # [11] Fóruns e Galerias de Imagens Adultas
 # [12] Aplicativos Mobile Adultos (Endpoints)
+# [13] Portais Globais Adicionais (Beeg, TXXX, Eporner...)
+# [14] Conteúdo Adulto BR Adicional
+# [15] Webcams Adicionais (CamSoda, Flirt4Free...)
+# [16] Plataformas Creator (OnlyFans, Fansly, ManyVids...)
+# [17] Conteúdo VR Adulto
+# [18] CDNs Adultas Adicionais
 
 # === COBERTURA COMPLETA ===
 # ✓ Domínios .br/.com.br/.tv/.me
@@ -31,7 +37,7 @@
 # ✓ Links de afiliados e pop-unders
 
 # === ATUALIZAÇÃO ===
-# Última revisão: 04/02/2026
+# Última revisão: 30/06/2026
 # Método: Bloqueio por DNS (0.0.0.0)
 # Compatível: pfBlockerNG Python Mode, AdGuard, Pi-hole.
 
@@ -126,6 +132,115 @@
 0.0.0.0 bdsmlr.com
 0.0.0.0 onlyfans.com
 0.0.0.0 fansly.com
+
+
+# ============================================
+# [13] PORTAIS GLOBAIS ADICIONAIS
+# ============================================
+
+0.0.0.0 eporner.com
+0.0.0.0 www.eporner.com
+0.0.0.0 txxx.com
+0.0.0.0 www.txxx.com
+0.0.0.0 beeg.com
+0.0.0.0 www.beeg.com
+0.0.0.0 yespornplease.com
+0.0.0.0 pornone.com
+0.0.0.0 tnaflix.com
+0.0.0.0 empflix.com
+0.0.0.0 porndoe.com
+0.0.0.0 anyporn.com
+0.0.0.0 gotporn.com
+0.0.0.0 porntrex.com
+0.0.0.0 boyfriendtv.com
+0.0.0.0 porngo.com
+0.0.0.0 xtube.com
+0.0.0.0 gaytube.com
+0.0.0.0 faphouse.com
+0.0.0.0 fapvid.com
+0.0.0.0 wankz.com
+0.0.0.0 ddfnetwork.com
+0.0.0.0 pornhd.com
+0.0.0.0 hclips.com
+0.0.0.0 vporn.com
+0.0.0.0 drtuber.com
+0.0.0.0 sunporno.com
+0.0.0.0 4tube.com
+0.0.0.0 porndig.com
+0.0.0.0 pervertslut.com
+
+# ============================================
+# [14] CONTEÚDO ADULTO BRASILEIRO ADICIONAL
+# ============================================
+
+0.0.0.0 videosporno.com.br
+0.0.0.0 putasbrasileiras.com
+0.0.0.0 sexobrasil.com.br
+0.0.0.0 loucassexuais.com
+0.0.0.0 seduzindo.com
+0.0.0.0 vipgatas.com.br
+0.0.0.0 gostosasbr.com.br
+0.0.0.0 putalocura.com
+0.0.0.0 safadinhas.com.br
+0.0.0.0 pornotube.com.br
+0.0.0.0 novinhastube.com
+0.0.0.0 mcafeita.com.br
+0.0.0.0 branquelabr.com.br
+
+# ============================================
+# [15] WEBCAMS ADICIONAIS
+# ============================================
+
+0.0.0.0 camsoda.com
+0.0.0.0 flirt4free.com
+0.0.0.0 streamate.com
+0.0.0.0 jasmin.com
+0.0.0.0 amateur.tv
+0.0.0.0 jerkmate.com
+0.0.0.0 cherrycam.com
+0.0.0.0 shagle.com
+0.0.0.0 xcams.com
+0.0.0.0 cameraboys.com
+
+# ============================================
+# [16] PLATAFORMAS CREATOR (ONLYFANS E SIMILARES)
+# ============================================
+
+0.0.0.0 fancentro.com
+0.0.0.0 justforfans.com
+0.0.0.0 4based.com
+0.0.0.0 manyvids.com
+0.0.0.0 loyalfans.com
+0.0.0.0 suicidegirls.com
+0.0.0.0 unfiltrd.com
+0.0.0.0 fanvue.com
+0.0.0.0 patreon.com
+
+# ============================================
+# [17] CONTEÚDO VR ADULTO
+# ============================================
+
+0.0.0.0 vrporn.com
+0.0.0.0 wankzvr.com
+0.0.0.0 naughtyamerica.com
+0.0.0.0 baberotica.com
+0.0.0.0 vrcosplayx.com
+0.0.0.0 czechvr.com
+
+# ============================================
+# [18] CDNs ADULTAS ADICIONAIS
+# ============================================
+
+0.0.0.0 vpcdn.net
+0.0.0.0 kink.com
+0.0.0.0 pornbb.org
+0.0.0.0 xhcdn.net
+0.0.0.0 cdn.pornhub.org
+0.0.0.0 phrst.net
+0.0.0.0 adultforce.com
+0.0.0.0 cpmstar.com
+0.0.0.0 nuads.net
+0.0.0.0 adxxx.com
 
 # ============================================
 # FIM DA LISTA
