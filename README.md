@@ -17,20 +17,26 @@ Para garantir que o pfSense consiga ler as listas, utilize sempre o link **Raw**
 
 ## 📋 Detalhes das Listas Atualizadas
 
-### 1. Jogos de Azar & Apostas (Games of Chance)
-* **Foco:** Mercado brasileiro (Betano, Blaze, Superbet, etc.).
-* **Diferencial:** Bloqueio de APIs e CDNs que impedem o funcionamento dos Apps mobile.
+### 1. Jogos de Azar & Apostas (Games of Chance) — ~1.040 entradas
+* **Foco:** Mercado brasileiro (68 operadoras cobertas).
+* **Inclui:** Betano, Blaze, Superbet, Bet365, 1xBet, Galera.bet, Bodog, Mr. Jack Bet, Rivalo, NovaBet, Betsson, LeoVegas, Betway, Parimatch, F12.bet, Pagbet, Betsul, 22Bet, Melbet, Megapari, BrBet, Codere, Pinnacle e mais.
+* **Diferencial:** Bloqueio de APIs/CDNs (apps mobile), provedoras de slots (Pragmatic Play, Evolution Gaming, Spribe/Aviator) e Jogo do Bicho digital.
 
-### 2. Conteúdo Adulto (Porn)
-* **Foco:** Principais portais e sites de streaming de conteúdo adulto.
+### 2. Conteúdo Adulto (Porn) — ~1.120 entradas
+* **Foco:** 18 categorias cobrindo portais globais, conteúdo BR, webcams, plataformas creator (OnlyFans, Fansly, ManyVids), VR adulto e CDNs.
 * **Aplicação:** Ideal para redes corporativas e ambientes escolares.
 
-### 3. Notícias e Publicidade (News and Advertising)
-* **Foco:** Grandes portais brasileiros (Globo, UOL, Terra, etc.) e redes de Ads/Tracking (Taboola, Google Ads, Pixel).
-* **Diferencial:** Redução drástica de poluição visual e consumo de banda por anúncios sem quebrar a comunicação básica do Meio Corporativo.
+### 3. Notícias e Publicidade (News and Advertising) — ~170 entradas
+* **Foco:** Grandes portais BR (Globo, UOL, Terra, Jovem Pan, Exame, etc.) e 12 categorias de tracking: Taboola, Google Ads, Facebook Pixel, Microsoft Clarity, Hotjar, AppsFlyer, Criteo, Rubicon, TikTok Ads, Pinterest, Twitter/X Ads e mais.
+* **Diferencial:** Bloqueia pixels de rastreamento social e redes programáticas sem quebrar a navegação básica.
 
-### 4. Malware Custom
-* **Foco:** Domínios de phishing e servidores C2 identificados em ataques recentes.
+### 4. Malware Custom — ~85 entradas
+* **Foco:** Ameaças específicas ao ambiente brasileiro:
+  * Pools de cryptomining XMRig/Monero (18 pools)
+  * Phishing bancário BR — domínios falsos de Itaú, Bradesco, Caixa, Santander, Nubank, PIX
+  * Fake Gov.br — INSS, Receita Federal, DETRAN, CPF
+  * Malware distribution / ativadores piratas
+  * Cryptojacking via browser (JS miners como CoinHive)
 
 ---
 
@@ -46,5 +52,5 @@ Para garantir que o pfSense consiga ler as listas, utilize sempre o link **Raw**
 ---
 
 **Mantenedor:** [AlexandreAlan](https://github.com/AlexandreAlan)  
-**Data da última revisão:** 13 de Fevereiro de 2026.  
+**Data da última revisão:** 30 de Junho de 2026.  
 **Contribuições:** Se encontrar um domínio que não está bloqueado, abra uma Issue.
