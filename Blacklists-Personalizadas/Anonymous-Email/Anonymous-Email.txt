@@ -1,0 +1,74 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Anonymous & Disposable Email)
+# Description: Bloqueia serviços de e-mail temporário, anônimo e descartável
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo, escolar, plataformas SaaS — prevenir cadastros falsos e evasão
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] E-mail temporário 10 minutos
+# [2] E-mail descartável permanente
+# [3] E-mail anônimo / privacidade
+# [4] Aliases e forwarding anônimo
+# [5] Provedores conhecidos por spam e abuso
+
+# === [1] E-mail Temporário ===
+0.0.0.0 10minutemail.com
+0.0.0.0 10minutemail.net
+0.0.0.0 10minemail.com
+0.0.0.0 20minutemail.com
+0.0.0.0 tempmail.com
+0.0.0.0 temp-mail.org
+0.0.0.0 temp-mail.io
+0.0.0.0 tempr.email
+0.0.0.0 emailtemp.org
+0.0.0.0 throwam.com
+0.0.0.0 yopmail.com
+0.0.0.0 mailnull.com
+0.0.0.0 spamgourmet.com
+0.0.0.0 trashmail.me
+0.0.0.0 trashmail.at
+0.0.0.0 trashmail.io
+
+# === [2] E-mail Descartável ===
+0.0.0.0 mailinator.com
+0.0.0.0 guerrillamail.com
+0.0.0.0 guerrillamail.biz
+0.0.0.0 guerrillamail.de
+0.0.0.0 fakeinbox.com
+0.0.0.0 maildrop.cc
+0.0.0.0 dispostable.com
+0.0.0.0 mailnesia.com
+0.0.0.0 mailnull.com
+0.0.0.0 sharklasers.com
+0.0.0.0 guerrillamailblock.com
+0.0.0.0 spam4.me
+0.0.0.0 grr.la
+0.0.0.0 getairmail.com
+
+# === [3] E-mail Anônimo / Privacidade ===
+0.0.0.0 protonmail.com
+0.0.0.0 tutanota.com
+0.0.0.0 tutamail.com
+0.0.0.0 cock.li
+0.0.0.0 airmail.cc
+0.0.0.0 thunderbird.net
+
+# === [4] Aliases e Forwarding Anônimo ===
+0.0.0.0 anonaddy.com
+0.0.0.0 simplelogin.io
+0.0.0.0 33mail.com
+0.0.0.0 spamgourmet.net
+0.0.0.0 emailalias.me
+0.0.0.0 hidemail.de
+
+# === [5] Provedores com Alto Índice de Abuso ===
+0.0.0.0 mailbucket.org
+0.0.0.0 spambox.us
+0.0.0.0 spamthisplease.com
+0.0.0.0 filzmail.com
+0.0.0.0 deadaddress.com
+0.0.0.0 spamgourmet.org
+0.0.0.0 bspamfree.org
+0.0.0.0 kontentsu.ru
