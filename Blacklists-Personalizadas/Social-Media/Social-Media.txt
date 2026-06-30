@@ -1,0 +1,151 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Social Media)
+# Description: Bloqueio de redes sociais para ambientes corporativos e escolares
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Empresas que bloqueiam distração / Escolas / Controle parental
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Facebook / Meta
+# [2] Instagram
+# [3] TikTok / Kwai
+# [4] Twitter / X
+# [5] Snapchat
+# [6] Pinterest
+# [7] LinkedIn
+# [8] Reddit
+# [9] Discord
+# [10] Tumblr / Outros
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 30/06/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, Pi-hole.
+# AVISO: Bloqueia apps mobile também via CDN/API.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- FACEBOOK / META ---
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 web.facebook.com
+0.0.0.0 l.facebook.com
+0.0.0.0 static.facebook.com
+0.0.0.0 upload.facebook.com
+0.0.0.0 fbcdn.net
+0.0.0.0 fbsbx.com
+0.0.0.0 fbcdn.com
+0.0.0.0 facebook.net
+0.0.0.0 edge-chat.facebook.com
+0.0.0.0 api.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 messenger.com
+0.0.0.0 www.messenger.com
+
+# --- INSTAGRAM ---
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 cdninstagram.com
+0.0.0.0 i.instagram.com
+0.0.0.0 api.instagram.com
+0.0.0.0 graph.instagram.com
+0.0.0.0 scontent.cdninstagram.com
+
+# --- TIKTOK ---
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 m.tiktok.com
+0.0.0.0 api.tiktok.com
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokv.com
+0.0.0.0 musical.ly
+0.0.0.0 byteoversea.com
+0.0.0.0 bytedance.com
+0.0.0.0 ibytedtos.com
+0.0.0.0 ibyteimg.com
+0.0.0.0 tiktokd.com
+
+# --- KWAI (POPULAR NO BRASIL) ---
+0.0.0.0 kwai.com
+0.0.0.0 kwai.com.br
+0.0.0.0 www.kwai.com
+0.0.0.0 kwaicdn.com
+0.0.0.0 kwaishou.com
+0.0.0.0 kuaishou.com
+
+# --- TWITTER / X ---
+0.0.0.0 twitter.com
+0.0.0.0 www.twitter.com
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 mobile.twitter.com
+0.0.0.0 api.twitter.com
+0.0.0.0 twimg.com
+0.0.0.0 pbs.twimg.com
+0.0.0.0 abs.twimg.com
+0.0.0.0 t.co
+0.0.0.0 pic.twitter.com
+
+# --- SNAPCHAT ---
+0.0.0.0 snapchat.com
+0.0.0.0 www.snapchat.com
+0.0.0.0 snap.com
+0.0.0.0 sc-cdn.net
+0.0.0.0 cf-st.sc-cdn.net
+0.0.0.0 snapkit.com
+0.0.0.0 bitmoji.com
+
+# --- PINTEREST ---
+0.0.0.0 pinterest.com
+0.0.0.0 www.pinterest.com
+0.0.0.0 br.pinterest.com
+0.0.0.0 pinimg.com
+0.0.0.0 i.pinimg.com
+0.0.0.0 s.pinimg.com
+
+# --- LINKEDIN ---
+0.0.0.0 linkedin.com
+0.0.0.0 www.linkedin.com
+0.0.0.0 m.linkedin.com
+0.0.0.0 licdn.com
+0.0.0.0 media.licdn.com
+0.0.0.0 platform.linkedin.com
+0.0.0.0 api.linkedin.com
+
+# --- REDDIT ---
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 old.reddit.com
+0.0.0.0 redd.it
+0.0.0.0 redditmedia.com
+0.0.0.0 redditstatic.com
+0.0.0.0 reddituploads.com
+0.0.0.0 i.redd.it
+0.0.0.0 v.redd.it
+
+# --- DISCORD ---
+0.0.0.0 discord.com
+0.0.0.0 www.discord.com
+0.0.0.0 discord.gg
+0.0.0.0 discordapp.com
+0.0.0.0 discordapp.net
+0.0.0.0 discord.media
+0.0.0.0 cdn.discordapp.com
+0.0.0.0 gateway.discord.gg
+
+# --- TUMBLR / OUTROS ---
+0.0.0.0 tumblr.com
+0.0.0.0 www.tumblr.com
+0.0.0.0 assets.tumblr.com
+0.0.0.0 vk.com
+0.0.0.0 www.vk.com
+0.0.0.0 userapi.com
+0.0.0.0 vkuservideo.net
+
+# ============================================
+# FIM DA LISTA
+# ============================================
