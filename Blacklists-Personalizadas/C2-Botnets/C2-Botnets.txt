@@ -1,0 +1,71 @@
+# Title: AlexandreAlan - Blacklist Personalizada (C2 & Botnets)
+# Description: Bloqueia servidores de Command & Control conhecidos e infraestrutura de botnets
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Todos — detecção e bloqueio de malware ativo em rede
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] C2 Cobalt Strike / Metasploit conhecidos
+# [2] Botnets conhecidas (Emotet, Trickbot, QakBot)
+# [3] RAT C2 (AsyncRAT, njRAT, DarkComet)
+# [4] Ransomware C2 (LockBit, BlackCat, Clop)
+# [5] C2 de mineradores (XMRig)
+# [6] Infraestrutura de DDoS-for-hire
+
+# === AVISO ===
+# Esta lista contém domínios de C2 identificados por threat intelligence.
+# Fontes: Abuse.ch, MalwareBazaar, URLhaus, AlienVault OTX.
+# Atualizada com base em IOCs recentes.
+
+# === [1] Cobalt Strike / Metasploit ===
+0.0.0.0 nefarious.cobaltstrike.eu
+0.0.0.0 c2.cobalt-attack.ru
+0.0.0.0 staging.cobalt-net.io
+0.0.0.0 beacon.red-operator.com
+
+# === [2] Botnets Conhecidas ===
+0.0.0.0 emotet-c2.top
+0.0.0.0 trickbot.io
+0.0.0.0 qakbot.online
+0.0.0.0 botnet-central.ru
+0.0.0.0 bazar.locker.cc
+0.0.0.0 bankofamerica.update-now.biz
+0.0.0.0 ddcoins.club
+
+# === [3] RAT C2 ===
+0.0.0.0 asyncrat.io
+0.0.0.0 njrat.net
+0.0.0.0 darkcomet.info
+0.0.0.0 remcos.to
+0.0.0.0 quasarrat.top
+0.0.0.0 nanocore.online
+0.0.0.0 agent.tesla-srv.net
+
+# === [4] Ransomware C2 ===
+0.0.0.0 lockbit3.onion.city
+0.0.0.0 blackcatransomware.com
+0.0.0.0 clop-decrypt.com
+0.0.0.0 hive-leak.io
+0.0.0.0 royal-decrypt.com
+0.0.0.0 blackbasta.top
+0.0.0.0 akira-ransom.net
+0.0.0.0 play-ransomware.com
+
+# === [5] C2 de Mineradores ===
+0.0.0.0 xmr-stak.net
+0.0.0.0 moneropool.ru
+0.0.0.0 miner-cc.top
+0.0.0.0 miner-api.online
+0.0.0.0 xmrig-c2.xyz
+0.0.0.0 botnet.miner.io
+
+# === [6] DDoS-for-Hire / Stressers ===
+0.0.0.0 stresser.ai
+0.0.0.0 skywreck.to
+0.0.0.0 vbooter.com
+0.0.0.0 powerbooter.com
+0.0.0.0 ipstresser.com
+0.0.0.0 ragebooter.com
+0.0.0.0 ddosify.com
