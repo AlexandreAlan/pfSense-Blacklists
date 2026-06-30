@@ -1,0 +1,89 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Cryptomining Pools)
+# Description: Bloqueia pools de mineração de criptomoedas — cryptojacking e mineração não autorizada
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Todos — prevenção de uso indevido de recursos computacionais
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Pools XMRig / Monero (XMR) — principais alvos de cryptojacking
+# [2] Pools Bitcoin (BTC)
+# [3] Pools Ethereum / ETC
+# [4] Pools Ravencoin / Ergo / outros
+# [5] Mining software C&C
+# [6] JavaScript in-browser mining
+
+# === [1] Pools Monero (XMR) — Foco Cryptojacking ===
+0.0.0.0 pool.supportxmr.com
+0.0.0.0 xmrpool.eu
+0.0.0.0 xmr.nanopool.org
+0.0.0.0 monerohash.com
+0.0.0.0 minexmr.com
+0.0.0.0 xmrpool.net
+0.0.0.0 cryptonote.social
+0.0.0.0 xmr.2miners.com
+0.0.0.0 hashvault.pro
+0.0.0.0 rxp.ditatompel.com
+0.0.0.0 p2pool.io
+0.0.0.0 community.xmr.to
+0.0.0.0 xmr.pool.minergate.com
+0.0.0.0 mine.xmrpool.net
+0.0.0.0 pool.hashvault.pro
+0.0.0.0 xmr.gntl.uk
+0.0.0.0 xmrpool.de
+0.0.0.0 pool.xmr.pt
+0.0.0.0 monerocean.stream
+0.0.0.0 xmr.metal.fish
+
+# === [2] Pools Bitcoin (BTC) ===
+0.0.0.0 pool.viabtc.com
+0.0.0.0 us-east.stratum.slushpool.com
+0.0.0.0 btc.slushpool.com
+0.0.0.0 stratum.antpool.com
+0.0.0.0 stratum.f2pool.com
+0.0.0.0 btc.f2pool.com
+0.0.0.0 bsv.f2pool.com
+0.0.0.0 stratum.btcc.com
+0.0.0.0 mining.btcc.com
+0.0.0.0 pool.btcc.com
+0.0.0.0 stratum.nicehash.com
+0.0.0.0 nicehash.com
+0.0.0.0 mining.nicehash.com
+
+# === [3] Pools Ethereum / ETC ===
+0.0.0.0 eth.nanopool.org
+0.0.0.0 eu1.ethermine.org
+0.0.0.0 us1.ethermine.org
+0.0.0.0 eu1.ethpool.org
+0.0.0.0 eth.f2pool.com
+0.0.0.0 etc.ethermine.org
+0.0.0.0 etc.nanopool.org
+0.0.0.0 pool.2miners.com
+
+# === [4] Outros Pools (RVN, ERG, FLUX) ===
+0.0.0.0 rvn.2miners.com
+0.0.0.0 ravencoin.auto.nicehash.com
+0.0.0.0 ergo.getblok.io
+0.0.0.0 ergo.2miners.com
+0.0.0.0 flux.2miners.com
+0.0.0.0 zel.nanopool.org
+
+# === [5] Mining Software C&C ===
+0.0.0.0 xmrig.com
+0.0.0.0 github.com/xmrig
+0.0.0.0 moneroocean.stream
+0.0.0.0 c3pool.com
+0.0.0.0 c3pool.org
+
+# === [6] JavaScript In-Browser Mining ===
+0.0.0.0 coinhive.com
+0.0.0.0 coin-hive.com
+0.0.0.0 jsecoin.com
+0.0.0.0 minr.pw
+0.0.0.0 cryptoloot.pro
+0.0.0.0 crypto-loot.com
+0.0.0.0 papoto.com
+0.0.0.0 miner.pr0gramm.com
+0.0.0.0 load.jsecoin.com
+0.0.0.0 perfekt.io
