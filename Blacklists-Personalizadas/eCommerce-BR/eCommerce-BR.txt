@@ -1,0 +1,86 @@
+# Title: AlexandreAlan - Blacklist Personalizada (eCommerce BR & Compras Online)
+# Description: Bloqueia marketplaces e lojas online — foco em plataformas de distração produtiva
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo — reduzir compras pessoais durante horário de trabalho
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Shopee
+# [2] Shein
+# [3] AliExpress / Alibaba
+# [4] Mercado Livre
+# [5] Magazine Luiza / Americanas / Casas Bahia
+# [6] Amazon BR
+# [7] OLX / Enjoei / Enjoei
+# [8] Wish / Fast fashion importada
+# [9] Cupons e cashback
+
+# === AVISO ===
+# Esta lista bloqueia marketplaces populares de e-commerce.
+# Use em ambientes corporativos que precisam restringir uso pessoal durante expediente.
+# NÃO recomendado para uso doméstico sem conscientização do usuário.
+
+# === [1] Shopee ===
+0.0.0.0 shopee.com.br
+0.0.0.0 api.shopee.com.br
+0.0.0.0 media.shopeesz.com
+0.0.0.0 cf.shopee.com.br
+0.0.0.0 shopee.com.br
+
+# === [2] Shein ===
+0.0.0.0 shein.com.br
+0.0.0.0 shein.com
+0.0.0.0 img.ltwebstatic.com
+0.0.0.0 api.sheincorp.com
+
+# === [3] AliExpress / Alibaba ===
+0.0.0.0 aliexpress.com
+0.0.0.0 aliexpress.com.br
+0.0.0.0 alibaba.com
+0.0.0.0 ae01.alicdn.com
+0.0.0.0 ae02.alicdn.com
+0.0.0.0 ae03.alicdn.com
+0.0.0.0 gsp64-sea.aliexpress.com
+
+# === [4] Mercado Livre ===
+0.0.0.0 mercadolivre.com.br
+0.0.0.0 mercadopago.com.br
+0.0.0.0 mercadoshops.com.br
+0.0.0.0 mlstatic.com
+0.0.0.0 mla-s2-p.mlstatic.com
+
+# === [5] Magazine Luiza / Americanas / Casas Bahia ===
+0.0.0.0 magazineluiza.com.br
+0.0.0.0 americanas.com.br
+0.0.0.0 americanas.com
+0.0.0.0 casasbahia.com.br
+0.0.0.0 submarino.com.br
+0.0.0.0 shoptime.com.br
+0.0.0.0 pontofrio.com.br
+
+# === [6] Amazon BR ===
+0.0.0.0 amazon.com.br
+0.0.0.0 amzn.to
+0.0.0.0 images-na.ssl-images-amazon.com
+
+# === [7] OLX / Enjoei / Classicos ===
+0.0.0.0 olx.com.br
+0.0.0.0 enjoei.com.br
+0.0.0.0 vinted.com.br
+0.0.0.0 estante-virtual.com.br
+0.0.0.0 depop.com
+
+# === [8] Wish / Fast Fashion Importada ===
+0.0.0.0 wish.com
+0.0.0.0 geek.wish.com
+0.0.0.0 temu.com
+0.0.0.0 zeamo.com
+
+# === [9] Cupons e Cashback ===
+0.0.0.0 cuponomia.com.br
+0.0.0.0 meliuz.com.br
+0.0.0.0 ame.com.br
+0.0.0.0 tudosobcupons.com.br
+0.0.0.0 cifraclub.com
