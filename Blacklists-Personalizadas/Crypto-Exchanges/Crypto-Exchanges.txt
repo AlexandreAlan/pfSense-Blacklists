@@ -1,0 +1,164 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Crypto Exchanges)
+# Description: Bloqueio de exchanges de criptomoedas e plataformas de trading crypto
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo que quer impedir trading durante o trabalho / Controle de risco
+# AVISO: NÃO inclui cryptomining — veja a lista Malware-Custom para isso
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Exchanges Globais (Binance, Coinbase, Kraken...)
+# [2] Exchanges Brasileiras (Mercado Bitcoin, Foxbit, Novadax...)
+# [3] DEX / DeFi (Uniswap, dYdX...)
+# [4] Carteiras e Custódia (MetaMask, Trust Wallet...)
+# [5] NFT Markets (OpenSea, Magic Eden...)
+# [6] Portais de Preços (CoinMarketCap, CoinGecko...)
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 30/06/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, Pi-hole.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- BINANCE ---
+0.0.0.0 binance.com
+0.0.0.0 www.binance.com
+0.0.0.0 accounts.binance.com
+0.0.0.0 api.binance.com
+0.0.0.0 cdn.binance.com
+0.0.0.0 data.binance.com
+0.0.0.0 fapi.binance.com
+0.0.0.0 binance.com.br
+0.0.0.0 www.binance.com.br
+
+# --- COINBASE ---
+0.0.0.0 coinbase.com
+0.0.0.0 www.coinbase.com
+0.0.0.0 pro.coinbase.com
+0.0.0.0 api.coinbase.com
+0.0.0.0 coinbasepro.com
+
+# --- KRAKEN ---
+0.0.0.0 kraken.com
+0.0.0.0 www.kraken.com
+0.0.0.0 api.kraken.com
+0.0.0.0 trade.kraken.com
+
+# --- OKX ---
+0.0.0.0 okx.com
+0.0.0.0 www.okx.com
+0.0.0.0 okex.com
+0.0.0.0 www.okex.com
+
+# --- BYBIT ---
+0.0.0.0 bybit.com
+0.0.0.0 www.bybit.com
+0.0.0.0 api.bybit.com
+
+# --- KUCOIN ---
+0.0.0.0 kucoin.com
+0.0.0.0 www.kucoin.com
+0.0.0.0 api.kucoin.com
+
+# --- GATE.IO ---
+0.0.0.0 gate.io
+0.0.0.0 www.gate.io
+
+# --- HTX / HUOBI ---
+0.0.0.0 htx.com
+0.0.0.0 www.htx.com
+0.0.0.0 huobi.com
+0.0.0.0 www.huobi.com
+
+# --- CRYPTO.COM ---
+0.0.0.0 crypto.com
+0.0.0.0 www.crypto.com
+0.0.0.0 exchange.crypto.com
+
+# --- GEMINI ---
+0.0.0.0 gemini.com
+0.0.0.0 www.gemini.com
+0.0.0.0 exchange.gemini.com
+
+# --- BITFINEX ---
+0.0.0.0 bitfinex.com
+0.0.0.0 www.bitfinex.com
+
+# --- BITMEX ---
+0.0.0.0 bitmex.com
+0.0.0.0 www.bitmex.com
+
+# --- MEXC ---
+0.0.0.0 mexc.com
+0.0.0.0 www.mexc.com
+
+# --- BITGET ---
+0.0.0.0 bitget.com
+0.0.0.0 www.bitget.com
+
+# --- EXCHANGES BRASILEIRAS ---
+0.0.0.0 mercadobitcoin.com.br
+0.0.0.0 www.mercadobitcoin.com.br
+0.0.0.0 api.mercadobitcoin.net
+0.0.0.0 foxbit.com.br
+0.0.0.0 www.foxbit.com.br
+0.0.0.0 api.foxbit.com.br
+0.0.0.0 novadax.com.br
+0.0.0.0 www.novadax.com.br
+0.0.0.0 ripio.com
+0.0.0.0 www.ripio.com
+0.0.0.0 coinex.com
+0.0.0.0 profitex.com.br
+0.0.0.0 bitcointrade.com.br
+0.0.0.0 www.bitcointrade.com.br
+0.0.0.0 criptomaniacos.com.br
+
+# --- DEX / DEFI ---
+0.0.0.0 app.uniswap.org
+0.0.0.0 uniswap.org
+0.0.0.0 dydx.exchange
+0.0.0.0 dydx.trade
+0.0.0.0 pancakeswap.finance
+0.0.0.0 1inch.io
+0.0.0.0 1inch.exchange
+0.0.0.0 aave.com
+0.0.0.0 compound.finance
+0.0.0.0 curve.fi
+
+# --- CARTEIRAS / CUSTÓDIA ---
+0.0.0.0 metamask.io
+0.0.0.0 trustwallet.com
+0.0.0.0 phantom.app
+0.0.0.0 exodus.com
+0.0.0.0 ledger.com
+0.0.0.0 trezor.io
+
+# --- NFT MARKETS ---
+0.0.0.0 opensea.io
+0.0.0.0 www.opensea.io
+0.0.0.0 magiceden.io
+0.0.0.0 rarible.com
+0.0.0.0 foundation.app
+0.0.0.0 niftygateway.com
+
+# --- PORTAIS DE PREÇOS / NOTÍCIAS CRYPTO ---
+0.0.0.0 coinmarketcap.com
+0.0.0.0 www.coinmarketcap.com
+0.0.0.0 coingecko.com
+0.0.0.0 www.coingecko.com
+0.0.0.0 cryptonews.com
+0.0.0.0 cointelegraph.com
+0.0.0.0 decrypt.co
+0.0.0.0 theblock.co
+0.0.0.0 bitcoinmagazine.com
+0.0.0.0 ambcrypto.com
+0.0.0.0 livecoins.com.br
+0.0.0.0 portaldobitcoin.uol.com.br
+
+# ============================================
+# FIM DA LISTA
+# ============================================
