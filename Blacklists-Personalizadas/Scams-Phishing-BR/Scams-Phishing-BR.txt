@@ -1,0 +1,83 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Scams & Golpes Online BR)
+# Description: Bloqueia golpes online, phishing financeiro, fake shops e fraudes digitais BR
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Todos — proteção de usuários contra fraudes financeiras e golpes digitais
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Fake shops / Lojas fraudulentas BR
+# [2] Golpes de investimento (pirâmides, ROI prometido)
+# [3] Phishing de redes sociais
+# [4] Phishing de marketplaces BR
+# [5] Golpes de suporte técnico falso
+# [6] Phishing de serviços de streaming
+# [7] Golpes de emprego falso BR
+# [8] Phishing PIX / transferência
+
+# === [1] Fake Shops ===
+0.0.0.0 comprasegura.lojaonline.com.br
+0.0.0.0 ofertasrelampago.net.br
+0.0.0.0 supershop.lojavirtual.com.br
+0.0.0.0 megaoferta24h.com.br
+0.0.0.0 precosbaixos.loja.com.br
+0.0.0.0 liquidacao-total.com.br
+0.0.0.0 shopbrasil24.com
+0.0.0.0 brasilshopoferta.com
+0.0.0.0 lojarapidabr.com
+0.0.0.0 comprajaoferta.com.br
+
+# === [2] Golpes de Investimento ===
+0.0.0.0 investimentogarantido.com.br
+0.0.0.0 lucrodiario.net
+0.0.0.0 rendimentopassivo.club
+0.0.0.0 criptofortuna.com.br
+0.0.0.0 bitcoin-br.online
+0.0.0.0 lucroimediato.net
+0.0.0.0 trading-perfeito.com
+0.0.0.0 robo-trader.com.br
+0.0.0.0 tesourooculto.net
+0.0.0.0 garantiafinanceira.com.br
+
+# === [3] Phishing de Redes Sociais ===
+0.0.0.0 login-instagram.com.br
+0.0.0.0 instagram-verificar.com
+0.0.0.0 facebook-seguro.com.br
+0.0.0.0 meta-suporte-conta.com
+0.0.0.0 verificacao-instagram.com.br
+0.0.0.0 whatsapp-restaurar.com.br
+0.0.0.0 whatsapp-backup-gratis.com
+
+# === [4] Phishing de Marketplaces BR ===
+0.0.0.0 mercadolivre-central.com
+0.0.0.0 shopee-brasil-oferta.com
+0.0.0.0 americanas-promo.com.br
+0.0.0.0 magazineluiza-desconto.net
+0.0.0.0 amazon-br-prime.com
+0.0.0.0 mercadopago-verificar.com.br
+
+# === [5] Suporte Técnico Falso ===
+0.0.0.0 microsoft-suporte-br.com
+0.0.0.0 windows-alerta-virus.com
+0.0.0.0 antivirus-emergencia.com.br
+0.0.0.0 pc-em-risco.com.br
+0.0.0.0 suporte-apple-brasil.com
+
+# === [6] Phishing de Streaming ===
+0.0.0.0 netflix-reativar.com.br
+0.0.0.0 netflix-plano.com.br
+0.0.0.0 disney-plus-oferta.com
+0.0.0.0 amazon-prime-renovar.com.br
+
+# === [7] Golpes de Emprego Falso ===
+0.0.0.0 trabalhoremoto-vagas.com.br
+0.0.0.0 emprego-urgente.com.br
+0.0.0.0 vagasofficial.com.br
+0.0.0.0 homeoffice-renda.com
+
+# === [8] Phishing PIX ===
+0.0.0.0 pix-receber.com.br
+0.0.0.0 chave-pix-ganha.com
+0.0.0.0 pix-emergencia-bcb.com
+0.0.0.0 banco-central-pix.com.br
