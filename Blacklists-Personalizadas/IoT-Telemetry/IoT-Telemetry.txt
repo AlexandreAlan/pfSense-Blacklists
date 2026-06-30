@@ -1,0 +1,99 @@
+# Title: AlexandreAlan - Blacklist Personalizada (IoT Telemetry & Smart Device Phone-Home)
+# Description: Bloqueia telemetria de dispositivos IoT, Smart TVs e gadgets que coletam dados sem consentimento
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Privacidade doméstica, LGPD compliance, redes seguras, firewalls de home lab
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Smart TVs Samsung
+# [2] Smart TVs LG
+# [3] Xiaomi / MIUI / Redmi
+# [4] Amazon Alexa / Fire TV
+# [5] Google Home / Chromecast
+# [6] Smart TVs Sony / Philips / TCL
+# [7] Impressoras (HP, Canon, Epson)
+# [8] Câmeras IP / Ring / Wyze
+# [9] Roteadores (telemetria do fabricante)
+# [10] Outros dispositivos IoT
+
+# === [1] Samsung Smart TVs ===
+0.0.0.0 samsungads.com
+0.0.0.0 log-config.samsungacr.com
+0.0.0.0 samsungacr.com
+0.0.0.0 cdn.samsungcloud.com
+0.0.0.0 samsungelectronics.com.br
+0.0.0.0 config.samsungads.com
+0.0.0.0 gpm.samsungapps.com
+0.0.0.0 discovery.us.samsungsmartad.com
+
+# === [2] LG Smart TVs ===
+0.0.0.0 lgappstv.com
+0.0.0.0 aic-ngx.lge.com
+0.0.0.0 smartshare.lgtvsdp.com
+0.0.0.0 ngfts.lge.com
+0.0.0.0 rdx.lge.com
+0.0.0.0 aic-ngx.lge.com
+0.0.0.0 lge-log.lgtvsdp.com
+
+# === [3] Xiaomi / MIUI / Redmi ===
+0.0.0.0 tracking.miui.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 mistat.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 resolver.msg.xiaomi.net
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sg.app.xiaomi.com
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 tracking.intl.miui.com
+
+# === [4] Amazon Alexa / Fire TV ===
+0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 fls-na.amazon.com
+0.0.0.0 devicemetrics-us-2.amazon.com
+0.0.0.0 aax-us-east.amazon.com
+
+# === [5] Google Home / Chromecast ===
+0.0.0.0 clients4.google.com
+0.0.0.0 jnn-pa.googleapis.com
+0.0.0.0 remotedesktop-pa.googleapis.com
+0.0.0.0 www.googleapis.com
+
+# === [6] Sony / Philips / TCL TVs ===
+0.0.0.0 info.tvsideview.sony.net
+0.0.0.0 iptv.sony.net
+0.0.0.0 bravia.dl.playstation.net
+0.0.0.0 analytics.philips.com
+0.0.0.0 ccc-iot.tclking.com
+0.0.0.0 ota.tclking.com
+
+# === [7] Impressoras ===
+0.0.0.0 instantink.hpconnected.com
+0.0.0.0 print.hpconnected.com
+0.0.0.0 hp-print.dns-hub.com
+0.0.0.0 canon-europe.com
+0.0.0.0 gdlp01.c-wss.com
+0.0.0.0 epsonconnect.com
+
+# === [8] Câmeras IP / Ring / Wyze ===
+0.0.0.0 ring.com
+0.0.0.0 api.ring.com
+0.0.0.0 wyze.com
+0.0.0.0 api.wyze.com
+0.0.0.0 arlo.com
+0.0.0.0 netgear.com
+
+# === [9] Roteadores (telemetria) ===
+0.0.0.0 homeportal.tp-link.net
+0.0.0.0 devs.tplinkcloud.com
+0.0.0.0 device.router.asus.com
+0.0.0.0 asusrouter.com
+0.0.0.0 nwservices.netgear.com
+0.0.0.0 router.fon.com
+
+# === [10] Outros IoT ===
+0.0.0.0 telemetry.belkin.com
+0.0.0.0 firmware.remotelink.lge.com
+0.0.0.0 tracking.nest.com
+0.0.0.0 home.nest.com
