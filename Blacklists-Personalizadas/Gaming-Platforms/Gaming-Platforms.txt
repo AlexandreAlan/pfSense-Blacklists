@@ -1,0 +1,150 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Gaming Platforms)
+# Description: Bloqueia plataformas de jogos online, launchers e lojas digitais
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo e escolar — controle de produtividade e banda
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Steam / Valve
+# [2] Epic Games Store
+# [3] Battle.net / Blizzard
+# [4] PlayStation Network
+# [5] Xbox Live / Microsoft Gaming
+# [6] EA / Origin / EA App
+# [7] Riot Games
+# [8] Ubisoft Connect
+# [9] Rockstar Games
+# [10] GOG.com
+# [11] Garena / Free Fire BR
+# [12] Razer
+# [13] NVIDIA GeForce NOW
+# [14] Jogos mobile (lojas alternativas)
+# [15] Servidores de patch e atualização de jogos
+
+# === [1] Steam / Valve ===
+0.0.0.0 store.steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 steamcdn-a.akamaihd.net
+0.0.0.0 steampowered.com
+0.0.0.0 steam-chat.com
+0.0.0.0 steamgames.com
+0.0.0.0 steamstatic.com
+0.0.0.0 steamuserimages-a.akamaihd.net
+0.0.0.0 api.steampowered.com
+0.0.0.0 cdn.steamstatic.com
+0.0.0.0 media.steampowered.com
+0.0.0.0 valve.net
+0.0.0.0 cm.steampowered.com
+
+# === [2] Epic Games Store ===
+0.0.0.0 epicgames.com
+0.0.0.0 store.epicgames.com
+0.0.0.0 launcher.epicgames.com
+0.0.0.0 cdn1.epicgames.com
+0.0.0.0 cdn2.epicgames.com
+0.0.0.0 fortnite.com
+0.0.0.0 account.epicgames.com
+0.0.0.0 static-assets-prod.epicgames.com
+0.0.0.0 download.epicgames.com
+
+# === [3] Battle.net / Blizzard ===
+0.0.0.0 battle.net
+0.0.0.0 blizzard.com
+0.0.0.0 us.battle.net
+0.0.0.0 eu.battle.net
+0.0.0.0 kr.battle.net
+0.0.0.0 blizzard-download.com
+0.0.0.0 worldofwarcraft.com
+0.0.0.0 overwatch.com
+0.0.0.0 diablo.com
+
+# === [4] PlayStation Network ===
+0.0.0.0 playstation.com
+0.0.0.0 playstation.net
+0.0.0.0 store.playstation.com
+0.0.0.0 psn.np.com
+0.0.0.0 auth.api.sonyentertainmentnetwork.com
+0.0.0.0 mdm.np.com
+0.0.0.0 clienttss.np.com
+0.0.0.0 nptitle.np.com
+
+# === [5] Xbox Live / Microsoft Gaming ===
+0.0.0.0 xbox.com
+0.0.0.0 live.xbox.com
+0.0.0.0 xboxlive.com
+0.0.0.0 xboxservices.com
+0.0.0.0 gamepass.com
+0.0.0.0 assets1.xboxlive.com
+0.0.0.0 achievements.xboxlive.com
+0.0.0.0 catalog.zune.net
+
+# === [6] EA / Origin / EA App ===
+0.0.0.0 ea.com
+0.0.0.0 origin.com
+0.0.0.0 eamobile.com
+0.0.0.0 easports.com
+0.0.0.0 cdnos.origin.com
+0.0.0.0 akamai.origin.com
+0.0.0.0 dl.delivery.mp.microsoft.com
+
+# === [7] Riot Games ===
+0.0.0.0 riotgames.com
+0.0.0.0 leagueoflegends.com
+0.0.0.0 valorant.com
+0.0.0.0 playvalorant.com
+0.0.0.0 teamfighttactics.com
+0.0.0.0 wildrift.leagueoflegends.com
+0.0.0.0 account.riotgames.com
+
+# === [8] Ubisoft Connect ===
+0.0.0.0 ubisoft.com
+0.0.0.0 ubisoftconnect.com
+0.0.0.0 uplay.com
+0.0.0.0 cdn.ubisoft.com
+0.0.0.0 dl.ubi.com
+
+# === [9] Rockstar Games ===
+0.0.0.0 rockstargames.com
+0.0.0.0 socialclub.rockstargames.com
+0.0.0.0 gta5.com
+0.0.0.0 rockstar.com
+
+# === [10] GOG.com ===
+0.0.0.0 gog.com
+0.0.0.0 cdn.gog.com
+0.0.0.0 images.gog-statics.com
+0.0.0.0 gog-cdn.com
+
+# === [11] Garena / Free Fire BR ===
+0.0.0.0 garena.com
+0.0.0.0 garena.com.br
+0.0.0.0 ff.garena.com
+0.0.0.0 freefire.garena.com
+0.0.0.0 garena.gg
+0.0.0.0 booyah.live
+
+# === [12] Razer ===
+0.0.0.0 razer.com
+0.0.0.0 razerzone.com
+0.0.0.0 rzr.to
+0.0.0.0 synapse.razer.com
+
+# === [13] NVIDIA GeForce NOW ===
+0.0.0.0 geforcenow.com
+0.0.0.0 www.nvidia.com
+0.0.0.0 gfn.nvidia.com
+0.0.0.0 cloudasset.nvidia.com
+
+# === [14] Jogos Mobile / Lojas Alternativas ===
+0.0.0.0 apkpure.com
+0.0.0.0 apkcombo.com
+0.0.0.0 happymod.com
+0.0.0.0 mob.org
+0.0.0.0 apkmonk.com
+
+# === [15] Servidores de patch (maiores títulos) ===
+0.0.0.0 patch.battle.net
+0.0.0.0 us.patch.battle.net
+0.0.0.0 nydus.battle.net
