@@ -1,0 +1,92 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Cloud Storage & DLP)
+# Description: Bloqueia serviços de armazenamento em nuvem pessoal para prevenção de exfiltração de dados
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo — DLP (Data Loss Prevention), compliance, LGPD
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Google Drive / Google One
+# [2] Dropbox
+# [3] Microsoft OneDrive (pessoal)
+# [4] Mega.nz
+# [5] WeTransfer
+# [6] MediaFire
+# [7] Box.com
+# [8] pCloud
+# [9] Compartilhamento de arquivos avulso
+# [10] 4shared / Zippyshare
+
+# === AVISO ===
+# Esta lista bloqueia armazenamento pessoal em nuvem.
+# OneDrive corporativo (sharepoint.com) NÃO está incluído.
+# Use junto com políticas DLP para ambientes regulados (LGPD, ISO 27001).
+
+# === [1] Google Drive / Google One ===
+0.0.0.0 drive.google.com
+0.0.0.0 docs.google.com
+0.0.0.0 sheets.google.com
+0.0.0.0 slides.google.com
+0.0.0.0 one.google.com
+0.0.0.0 photos.google.com
+0.0.0.0 drive.usercontent.google.com
+0.0.0.0 0.client-channel.google.com
+
+# === [2] Dropbox ===
+0.0.0.0 dropbox.com
+0.0.0.0 api.dropboxapi.com
+0.0.0.0 content.dropboxapi.com
+0.0.0.0 notify.dropboxapi.com
+0.0.0.0 dl.dropboxusercontent.com
+0.0.0.0 photos.dropbox.com
+0.0.0.0 paper.dropbox.com
+
+# === [3] OneDrive pessoal ===
+0.0.0.0 onedrive.live.com
+0.0.0.0 onedrive.com
+0.0.0.0 skyapi.onedrive.live.com
+
+# === [4] Mega.nz ===
+0.0.0.0 mega.nz
+0.0.0.0 mega.co.nz
+0.0.0.0 g.api.mega.co.nz
+0.0.0.0 eu.api.mega.co.nz
+0.0.0.0 storagedownloads.mega.co.nz
+
+# === [5] WeTransfer ===
+0.0.0.0 wetransfer.com
+0.0.0.0 api.wetransfer.com
+0.0.0.0 files.wetransfer.com
+
+# === [6] MediaFire ===
+0.0.0.0 mediafire.com
+0.0.0.0 download.mediafire.com
+0.0.0.0 www.mediafire.com
+
+# === [7] Box.com ===
+0.0.0.0 box.com
+0.0.0.0 api.box.com
+0.0.0.0 dl.boxcloud.com
+0.0.0.0 app.box.com
+
+# === [8] pCloud ===
+0.0.0.0 pcloud.com
+0.0.0.0 api.pcloud.com
+0.0.0.0 my.pcloud.com
+
+# === [9] Compartilhamento Avulso ===
+0.0.0.0 gofile.io
+0.0.0.0 anonfiles.com
+0.0.0.0 transfer.sh
+0.0.0.0 file.io
+0.0.0.0 tmpfiles.org
+0.0.0.0 uploadfiles.io
+0.0.0.0 bayfiles.com
+
+# === [10] 4shared / Legados ===
+0.0.0.0 4shared.com
+0.0.0.0 api.4shared.com
+0.0.0.0 zippyshare.com
+0.0.0.0 send.cm
+0.0.0.0 sendspace.com
