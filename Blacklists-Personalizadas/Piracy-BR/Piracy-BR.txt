@@ -1,0 +1,156 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Piracy BR)
+# Description: Bloqueio de sites de pirataria, torrent, IPTV pirata e futebol pirata
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: ISPs / Empresas / Escolas / Provedores de internet
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Torrent (Global)
+# [2] Sites de Futebol Pirata BR
+# [3] IPTV Pirata
+# [4] Filmes e Séries Piratas (Streaming ilegal)
+# [5] Warez e Ativadores BR
+# [6] Download de Música (MP3 ilegal)
+# [7] eBooks e Cursos Piratas
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 30/06/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, Pi-hole.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- TORRENT (GLOBAL) ---
+0.0.0.0 thepiratebay.org
+0.0.0.0 tpb.party
+0.0.0.0 pirateproxy.live
+0.0.0.0 1337x.to
+0.0.0.0 1337x.st
+0.0.0.0 x1337x.ws
+0.0.0.0 yts.mx
+0.0.0.0 yts.lt
+0.0.0.0 yifysubtitles.org
+0.0.0.0 eztv.re
+0.0.0.0 eztv.ag
+0.0.0.0 torrentz2.eu
+0.0.0.0 torrentgalaxy.to
+0.0.0.0 magnetdl.com
+0.0.0.0 limetorrents.info
+0.0.0.0 rarbg.to
+0.0.0.0 rarbgprox.org
+0.0.0.0 kickasstorrents.to
+0.0.0.0 kat.cr
+0.0.0.0 torrent9.vip
+0.0.0.0 torrent9.cz
+0.0.0.0 torrentz.eu
+0.0.0.0 nyaa.si
+0.0.0.0 nyaa.eu
+0.0.0.0 rutor.info
+0.0.0.0 bittorrent.am
+0.0.0.0 bittorrent.com
+0.0.0.0 utorrent.com
+0.0.0.0 bt4g.com
+0.0.0.0 zooqle.com
+0.0.0.0 seedpeer.me
+0.0.0.0 monova.org
+0.0.0.0 ilcorsaronero.info
+
+# --- FUTEBOL PIRATA BR ---
+0.0.0.0 futemax.app
+0.0.0.0 futemax.com.br
+0.0.0.0 futebol.live
+0.0.0.0 futmax.app
+0.0.0.0 golssao.com
+0.0.0.0 futebaovip.com
+0.0.0.0 futebolaolaoverde.com
+0.0.0.0 canalcraque.com
+0.0.0.0 canalbt.com
+0.0.0.0 telecanais.net
+0.0.0.0 assistirfutebol.tv
+0.0.0.0 vivo-futebol.com.br
+0.0.0.0 myfootball.com.br
+0.0.0.0 futebolhd.tv
+0.0.0.0 tvfutebol.net
+0.0.0.0 sportslive.cc
+0.0.0.0 sportsonline.tv
+0.0.0.0 livescore.one
+0.0.0.0 streambtv.com
+0.0.0.0 streamfutebol.tv
+
+# --- IPTV PIRATA ---
+0.0.0.0 iptvgratis.net
+0.0.0.0 iptvserte.com
+0.0.0.0 iptvbrasil.org
+0.0.0.0 listaiptv.net
+0.0.0.0 listam3u.com
+0.0.0.0 iptv4k.net
+0.0.0.0 iptvbrasil.net
+0.0.0.0 tvaberta.com.br
+0.0.0.0 telesatelite.net
+
+# --- FILMES E SÉRIES PIRATAS ---
+0.0.0.0 megafilmestv.cc
+0.0.0.0 megafilmes.net
+0.0.0.0 filmesflixhd.cc
+0.0.0.0 filmesonline.net
+0.0.0.0 filmeshd.net
+0.0.0.0 seriestv.net
+0.0.0.0 serie.tv
+0.0.0.0 animesonlinecc.com
+0.0.0.0 animesonline.cc
+0.0.0.0 assitrseries.com
+0.0.0.0 vixcloud.cc
+0.0.0.0 ddlfr.pw
+0.0.0.0 watchsomuch.to
+0.0.0.0 moviesub.cc
+0.0.0.0 cuevana3.io
+0.0.0.0 pelisplus.tv
+
+# --- WAREZ E ATIVADORES BR ---
+0.0.0.0 baixar-gratis.net
+0.0.0.0 softwarepirata.com.br
+0.0.0.0 programasgratis.net
+0.0.0.0 programaspc.net
+0.0.0.0 fullprogramas.com.br
+0.0.0.0 baixeaqui.org
+0.0.0.0 bajaaki.com
+0.0.0.0 mobileaplicativos.com.br
+0.0.0.0 crackdo.com
+0.0.0.0 crackativador.com
+0.0.0.0 ativadorwindows.com
+0.0.0.0 ativador.net
+0.0.0.0 4shared.com
+
+# --- DOWNLOAD DE MÚSICA ILEGAL ---
+0.0.0.0 mp3paw.com
+0.0.0.0 mp3juice.com
+0.0.0.0 tubidy.io
+0.0.0.0 tubidy.mobi
+0.0.0.0 fakaza.com
+0.0.0.0 yt1s.com
+0.0.0.0 y2mate.com
+0.0.0.0 mp3converter.net
+0.0.0.0 youtubemp3.to
+0.0.0.0 flvto.biz
+0.0.0.0 2conv.com
+0.0.0.0 ytmp3.cc
+
+# --- EBOOKS E CURSOS PIRATAS ---
+0.0.0.0 libgen.is
+0.0.0.0 libgen.rs
+0.0.0.0 libgen.st
+0.0.0.0 library.lol
+0.0.0.0 zlibrary.org
+0.0.0.0 z-lib.org
+0.0.0.0 b-ok.org
+0.0.0.0 bookfi.net
+0.0.0.0 cursopirata.com.br
+0.0.0.0 cursospirata.net
+
+# ============================================
+# FIM DA LISTA
+# ============================================
