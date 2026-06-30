@@ -1,0 +1,69 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Spam Infrastructure)
+# Description: Bloqueia infraestrutura de spam — servidores de envio em massa, bulk mailers e botnets de e-mail
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: ISPs, corporativo, administradores de rede que querem bloquear origem de spam
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Bulk Email / Cold Email Services
+# [2] Spam via Marketing Email (abusadores)
+# [3] Rastreadores de e-mail (pixel de rastreamento em spam)
+# [4] Landing pages de spam
+# [5] Serviços de e-mail descartável usados por spammers
+# [6] Redes de afiliados de spam
+
+# === [1] Bulk Email / Cold Email Services ===
+0.0.0.0 smtp2go.com
+0.0.0.0 spamgourmet.com
+0.0.0.0 mailchimp.com
+0.0.0.0 klaviyo.com
+0.0.0.0 constantcontact.com
+0.0.0.0 getresponse.com
+0.0.0.0 sendinblue.com
+0.0.0.0 brevo.com
+0.0.0.0 mailjet.com
+0.0.0.0 elasticemail.com
+
+# === [2] Spam via Marketing Abusivo ===
+0.0.0.0 spamcanners.com
+0.0.0.0 mailermailer.com
+0.0.0.0 emaildirectdotcom.com
+0.0.0.0 mktomail.com
+0.0.0.0 exacttarget.com
+
+# === [3] Rastreadores de E-mail (Spam) ===
+0.0.0.0 click.mlsend.com
+0.0.0.0 click.convertkit-mail.com
+0.0.0.0 click.mailchimp.com
+0.0.0.0 link.mail.beehiiv.com
+0.0.0.0 track.hubspot.com
+0.0.0.0 t.dripemail2.com
+0.0.0.0 r.smore.com
+0.0.0.0 spmailtechno.com
+
+# === [4] Landing Pages de Spam Conhecidas ===
+0.0.0.0 youwinbonuses.com
+0.0.0.0 premia-brasil.com.br
+0.0.0.0 sorteiobr.com.br
+0.0.0.0 cliqueganhe.com.br
+0.0.0.0 premiado-hoje.com.br
+0.0.0.0 ganhou-presente.com.br
+
+# === [5] E-mail Descartável (usado por spammers) ===
+0.0.0.0 mailinator.com
+0.0.0.0 guerrillamail.com
+0.0.0.0 tempmail.com
+0.0.0.0 throwam.com
+0.0.0.0 trashmail.com
+0.0.0.0 fakeinbox.com
+0.0.0.0 maildrop.cc
+0.0.0.0 dispostable.com
+
+# === [6] Redes de Afiliados de Spam ===
+0.0.0.0 adsterra.com
+0.0.0.0 plugrush.com
+0.0.0.0 trafficjunky.com
+0.0.0.0 clickbooth.com
+0.0.0.0 neverbouncecleaning.com
