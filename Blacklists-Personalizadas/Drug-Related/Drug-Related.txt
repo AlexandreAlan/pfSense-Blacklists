@@ -1,0 +1,54 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Drug-Related)
+# Description: Bloqueia sites relacionados a drogas ilícitas, entorpecentes e parafernália
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Escolar, corporativo, controle parental, ISPs
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Dark web market mirrors (clearnet)
+# [2] Sites de informação sobre drogas ilícitas
+# [3] Venda de parafernália / acessórios
+# [4] Fóruns e comunidades de uso
+# [5] Drogas sintéticas / designer drugs
+
+# === [1] Dark Web Market Mirrors ===
+0.0.0.0 silkroad.onion.ly
+0.0.0.0 alphabay.market
+0.0.0.0 darkbay.market
+0.0.0.0 cannazon.me
+0.0.0.0 drugmarket.de
+0.0.0.0 darkmarket.to
+
+# === [2] Sites de Informação (facilitação de uso) ===
+0.0.0.0 erowid.org
+0.0.0.0 drugpolicy.org
+0.0.0.0 bluelight.org
+0.0.0.0 rollsafe.org
+0.0.0.0 psychonautwiki.org
+0.0.0.0 tripsit.me
+0.0.0.0 drugcheckingservices.org
+
+# === [3] Parafernália / Acessórios ===
+0.0.0.0 smoke-shop.com.br
+0.0.0.0 cabideiro420.com.br
+0.0.0.0 bongbrasil.com.br
+0.0.0.0 420brasil.com.br
+0.0.0.0 hempbrasil.com.br
+0.0.0.0 smokeshopbr.com
+0.0.0.0 vaporizadoresbr.com
+
+# === [4] Fóruns e Comunidades ===
+0.0.0.0 drugs-forum.com
+0.0.0.0 reddit.com/r/cocaine
+0.0.0.0 reddit.com/r/drugsover30
+0.0.0.0 reddit.com/r/opiates
+0.0.0.0 cannacribs.com
+
+# === [5] Drogas Sintéticas / Designer Drugs ===
+0.0.0.0 researchchemicals.eu
+0.0.0.0 rcvendors.com
+0.0.0.0 novelsubstances.com
+0.0.0.0 chemicalplanet.eu
+0.0.0.0 rc-chemicals.org
