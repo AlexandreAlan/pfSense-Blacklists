@@ -1,0 +1,128 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Dating Apps)
+# Description: Bloqueio de aplicativos e sites de namoro, encontros e relacionamentos
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Escolas / Controle parental / Redes infantis / Corporativo
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Apps de Namoro Globais (Tinder, Bumble, Hinge...)
+# [2] Apps de Namoro BR (Happn, Meetic...)
+# [3] Apps LGBTQ+ (Grindr, Her...)
+# [4] Sites de Encontros Casuais
+# [5] Plataformas de Matchmaking
+
+# === ATUALIZAÇÃO ===
+# Última revisão: 30/06/2026
+# Método: Bloqueio por DNS (0.0.0.0)
+# Compatível: pfBlockerNG, AdGuard, Pi-hole.
+
+# ===============================================================
+# INÍCIO DA LISTA DE DOMÍNIOS
+# ===============================================================
+
+# --- TINDER ---
+0.0.0.0 tinder.com
+0.0.0.0 www.tinder.com
+0.0.0.0 gotinder.com
+0.0.0.0 tindercdn.com
+0.0.0.0 api.gotinder.com
+0.0.0.0 fb.gotinder.com
+0.0.0.0 imageiv.gotinder.com
+
+# --- BADOO ---
+0.0.0.0 badoo.com
+0.0.0.0 www.badoo.com
+0.0.0.0 boo.com
+0.0.0.0 www.boo.com
+0.0.0.0 cdn.badoo.com
+
+# --- BUMBLE ---
+0.0.0.0 bumble.com
+0.0.0.0 www.bumble.com
+0.0.0.0 bumble.com.br
+
+# --- HAPPN ---
+0.0.0.0 happn.fr
+0.0.0.0 happn.com
+0.0.0.0 www.happn.com
+0.0.0.0 api.happn.fr
+
+# --- HINGE ---
+0.0.0.0 hinge.co
+0.0.0.0 www.hinge.co
+0.0.0.0 hingecdn.com
+
+# --- OKCUPID ---
+0.0.0.0 okcupid.com
+0.0.0.0 www.okcupid.com
+0.0.0.0 cdn.okcupid.com
+
+# --- PLENTY OF FISH ---
+0.0.0.0 pof.com
+0.0.0.0 plentyoffish.com
+0.0.0.0 www.plentyoffish.com
+
+# --- MATCH.COM ---
+0.0.0.0 match.com
+0.0.0.0 www.match.com
+0.0.0.0 br.match.com
+0.0.0.0 eharmony.com
+0.0.0.0 www.eharmony.com
+
+# --- GRINDR ---
+0.0.0.0 grindr.com
+0.0.0.0 www.grindr.com
+0.0.0.0 gr.pn
+0.0.0.0 cdns.grindr.com
+
+# --- HER (APP LGBTQ+) ---
+0.0.0.0 weareher.com
+0.0.0.0 www.weareher.com
+
+# --- SCRUFF ---
+0.0.0.0 scruff.com
+0.0.0.0 www.scruff.com
+
+# --- FEELD ---
+0.0.0.0 feeld.co
+0.0.0.0 www.feeld.co
+
+# --- MEETIC BR ---
+0.0.0.0 meetic.com.br
+0.0.0.0 www.meetic.com.br
+0.0.0.0 meetic.com
+0.0.0.0 cdn.meetic.com
+
+# --- PARSHIP ---
+0.0.0.0 parship.com.br
+0.0.0.0 www.parship.com.br
+0.0.0.0 parship.com
+
+# --- THE INNER CIRCLE ---
+0.0.0.0 theinnercircle.co
+0.0.0.0 www.theinnercircle.co
+
+# --- COFFEE MEETS BAGEL ---
+0.0.0.0 coffeemeetsbagel.com
+0.0.0.0 www.coffeemeetsbagel.com
+
+# --- ZOOSK ---
+0.0.0.0 zoosk.com
+0.0.0.0 www.zoosk.com
+0.0.0.0 br.zoosk.com
+
+# --- PLATFORMS DE ENCONTROS CASUAIS ---
+0.0.0.0 adultfriendfinder.com
+0.0.0.0 www.adultfriendfinder.com
+0.0.0.0 friendfindernetworks.com
+0.0.0.0 sexsearch.com
+0.0.0.0 ashleymadison.com
+0.0.0.0 www.ashleymadison.com
+0.0.0.0 casualx.com
+0.0.0.0 pure.app
+
+# ============================================
+# FIM DA LISTA
+# ============================================
