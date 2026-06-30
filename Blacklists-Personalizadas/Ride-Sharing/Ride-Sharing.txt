@@ -1,0 +1,73 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Ride Sharing & Mobilidade)
+# Description: Bloqueia plataformas de transporte por app e mobilidade urbana
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo — separar uso pessoal de mobilidade do ambiente de trabalho
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Uber
+# [2] 99 (DiDi Brasil)
+# [3] inDriver
+# [4] Cabify
+# [5] BlaBlaCar
+# [6] Liftago / outros internacionais
+# [7] Patinetes / Micromobilidade
+# [8] Apps de aluguel de carro
+
+# === [1] Uber ===
+0.0.0.0 uber.com
+0.0.0.0 api.uber.com
+0.0.0.0 cn-geo1.uber.com
+0.0.0.0 cn-geo2.uber.com
+0.0.0.0 trips.uber.com
+0.0.0.0 auth.uber.com
+0.0.0.0 surge.uber.com
+0.0.0.0 driver.uber.com
+0.0.0.0 m.uber.com
+0.0.0.0 ridesharing.uber.com
+
+# === [2] 99 / DiDi Brasil ===
+0.0.0.0 99app.com
+0.0.0.0 99taxis.com.br
+0.0.0.0 api.99app.com
+0.0.0.0 passageiro.99app.com
+0.0.0.0 motorista.99app.com
+0.0.0.0 didiglobal.com
+
+# === [3] inDriver ===
+0.0.0.0 indriver.com
+0.0.0.0 api.indriver.com
+0.0.0.0 indriver.com.br
+
+# === [4] Cabify ===
+0.0.0.0 cabify.com
+0.0.0.0 api.cabify.com
+0.0.0.0 cabify.com.br
+
+# === [5] BlaBlaCar ===
+0.0.0.0 blablacar.com.br
+0.0.0.0 blablacar.com
+0.0.0.0 api.blablacar.com
+
+# === [6] Outros Internacionais ===
+0.0.0.0 lyft.com
+0.0.0.0 api.lyft.com
+0.0.0.0 grab.com
+0.0.0.0 gojek.com
+
+# === [7] Patinetes / Micromobilidade ===
+0.0.0.0 yellow.app
+0.0.0.0 lime.bike
+0.0.0.0 bird.co
+0.0.0.0 spin.pm
+0.0.0.0 grin.mx
+0.0.0.0 grow.co
+
+# === [8] Aluguel de Carro (apps) ===
+0.0.0.0 movida.com.br
+0.0.0.0 localiza.com
+0.0.0.0 unidas.com.br
+0.0.0.0 zipcar.com
+0.0.0.0 getaround.com
