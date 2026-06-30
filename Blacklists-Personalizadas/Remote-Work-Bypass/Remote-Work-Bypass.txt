@@ -1,0 +1,68 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Remote Work Bypass & Monitoramento Evasion)
+# Description: Bloqueia ferramentas usadas para burlar monitoramento corporativo em trabalho remoto
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo — ambientes com monitoramento de produtividade e remote work policies
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] Mouse jigglers e anti-idle software
+# [2] Serviços de automação de desktop remoto
+# [3] Virtual presence / fake presence
+# [4] Ferramentas de evasão de monitoramento de RH
+# [5] Proxies e VPNs focados em evasão corporativa
+# [6] Clientes RDP e acesso remoto pessoal não autorizado
+
+# === [1] Mouse Jigglers / Anti-Idle ===
+0.0.0.0 mousejiggler.org
+0.0.0.0 movemouse.co.uk
+0.0.0.0 caffeine-app.net
+0.0.0.0 jiggler.co
+0.0.0.0 keepmeactive.com
+0.0.0.0 jigglymouse.com
+0.0.0.0 anti-idle.com
+0.0.0.0 wakeonlan.me
+
+# === [2] Automação de Desktop ===
+0.0.0.0 autohotkey.com
+0.0.0.0 autoit.de
+0.0.0.0 pyautogui.readthedocs.io
+0.0.0.0 sikuli.org
+0.0.0.0 robotframework.org
+
+# === [3] Virtual Presence / Fake Presence ===
+0.0.0.0 virtualoffice.ai
+0.0.0.0 presence.io
+0.0.0.0 fakeupdate.net
+0.0.0.0 hiderwindow.com
+0.0.0.0 stayawake.online
+
+# === [4] Monitoramento Evasion (HR Tools) ===
+0.0.0.0 teramind.co
+0.0.0.0 interguard.com
+0.0.0.0 workpuls.com
+0.0.0.0 hubstaff.com
+0.0.0.0 timedoctor.com
+
+# === [5] VPN/Proxy de Evasão Corporativa ===
+0.0.0.0 browsec.com
+0.0.0.0 tunnelbear.com
+0.0.0.0 windscribe.com
+0.0.0.0 hotspotshield.com
+0.0.0.0 touch-vpn.net
+0.0.0.0 hide.me
+0.0.0.0 betternet.co
+0.0.0.0 speedify.com
+
+# === [6] Acesso Remoto Pessoal Não Autorizado ===
+0.0.0.0 teamviewer.com
+0.0.0.0 anydesk.com
+0.0.0.0 rustdesk.com
+0.0.0.0 screenconnect.com
+0.0.0.0 logmein.com
+0.0.0.0 join.me
+0.0.0.0 gotomypc.com
+0.0.0.0 splashtop.com
+0.0.0.0 zoho.com/assist
+0.0.0.0 chrome.remote.desktop.google.com
