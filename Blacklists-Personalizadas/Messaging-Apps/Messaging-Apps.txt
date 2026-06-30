@@ -1,0 +1,88 @@
+# Title: AlexandreAlan - Blacklist Personalizada (Messaging Apps)
+# Description: Bloqueia mensageiros instantâneos e plataformas de comunicação pessoal
+# Maintainer: AlexandreAlan
+# Date: 30 June 2026
+# Version: 1.0
+# Público-alvo: Corporativo restrito — ambientes que exigem uso exclusivo de ferramentas internas
+# ===============================================================
+
+# === CATEGORIAS ===
+# [1] WhatsApp / Meta
+# [2] Telegram
+# [3] Signal
+# [4] Viber
+# [5] Line
+# [6] WeChat
+# [7] Skype / Microsoft Teams pessoal
+# [8] Kik / ICQ
+# [9] Outros mensageiros
+
+# === AVISO ===
+# Esta lista bloqueia mensageiros pessoais.
+# NÃO bloqueia Microsoft Teams corporativo (teams.microsoft.com).
+# Use em ambientes que exigem canais de comunicação exclusivamente corporativos.
+
+# === [1] WhatsApp / Meta ===
+0.0.0.0 web.whatsapp.com
+0.0.0.0 api.whatsapp.com
+0.0.0.0 media.whatsapp.com
+0.0.0.0 media-mxp1-1.cdn.whatsapp.net
+0.0.0.0 whatsapp.net
+0.0.0.0 whatsapp.com
+0.0.0.0 wa.me
+0.0.0.0 mmg.whatsapp.net
+0.0.0.0 static.whatsapp.net
+0.0.0.0 v.whatsapp.net
+
+# === [2] Telegram ===
+0.0.0.0 web.telegram.org
+0.0.0.0 telegram.org
+0.0.0.0 t.me
+0.0.0.0 telegram.me
+0.0.0.0 core.telegram.org
+0.0.0.0 cdn4.telesco.pe
+0.0.0.0 cdn1.telesco.pe
+0.0.0.0 cdn5.telesco.pe
+
+# === [3] Signal ===
+0.0.0.0 signal.org
+0.0.0.0 api.signal.org
+0.0.0.0 chat.signal.org
+0.0.0.0 updates.signal.org
+0.0.0.0 cdn.signal.org
+0.0.0.0 cdn2.signal.org
+
+# === [4] Viber ===
+0.0.0.0 viber.com
+0.0.0.0 api.viber.com
+0.0.0.0 media.viber.com
+
+# === [5] Line ===
+0.0.0.0 line.me
+0.0.0.0 chat.line.me
+0.0.0.0 obs.line-scdn.net
+0.0.0.0 liff.line.me
+
+# === [6] WeChat ===
+0.0.0.0 wx.qq.com
+0.0.0.0 weixin.qq.com
+0.0.0.0 wechat.com
+0.0.0.0 mmappshop.weixin.qq.com
+
+# === [7] Skype (pessoal) ===
+0.0.0.0 skype.com
+0.0.0.0 api.skype.com
+0.0.0.0 secure.skypeassets.com
+
+# === [8] Kik / ICQ ===
+0.0.0.0 kik.com
+0.0.0.0 icq.com
+0.0.0.0 icq.net
+
+# === [9] Outros ===
+0.0.0.0 wire.com
+0.0.0.0 threema.ch
+0.0.0.0 wickr.com
+0.0.0.0 session.foundation
+0.0.0.0 briar.app
+0.0.0.0 zulip.com
